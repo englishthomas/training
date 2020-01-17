@@ -41,7 +41,7 @@ Emoji - by typing :EMOJICODE:  For a full list of available emoji and codes, che
 
 Images (titles are optional) <br />
 ![alt text](/URL to image/img.jpg "Title") <br />
-![alt text] (https://drive.google.com/open?id=15UZzw6jV3cq_VN5BlD1xEWm9LNJBOt6P)
+![alt text] (https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2UzNWI2MDAxMDk1Y2M0NGE4MzdjYTRkMzZjOGMxY2Q3YmVjYTg2MTkuanBnIl0sWyJwIiwidGh1bWIiLCJ4MzkwPiJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA4MSAtYXV0by1vcmllbnQiXV0/e35b6001095cc44a837ca4d36c8c1cd7beca8619.jpg)
 
 
 
