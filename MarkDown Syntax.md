@@ -13,7 +13,11 @@ Bold and Italics  ***bold and italics*** <br />
 Quote Text > quote text
 
 You can call out code or a command within a sentence - Use `backticks` to createcode block <br />
-To format code or text into its own distinct block - Use trible backticks ```like thhis```
+Code Block - Use trible backticks 
+```
+like this
+and this
+```
 
 Links - Text in brackets, link within parentheses [GitHub Pages](https://pages.github.com/)
 
@@ -33,5 +37,11 @@ Nested Lists use space characters in front
      - Second nested list item
 
 Emoji - by typing :EMOJICODE:  For a full list of available emoji and codes, check out emoji-cheat-sheet.com. <br />
-:+1:
+:+1: ..... :smile:  .......   :star:  .....   :key:  ....  :unlock:
+
+Images (titles are optional) <br />
+![alt text](/path/img.jpg "Title") <br />
+![local image] (c:/tom/pictures/aldar-min.jpg)
+
+
 
