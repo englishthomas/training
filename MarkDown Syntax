@@ -1,1 +1,6 @@
-MarkDown Syntax for GitHub
+## **MarkDown Syntax for GitHub**
+
+Headers:
+#- the largest heading
+##- second largest
+###- and so on . . .
