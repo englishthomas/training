@@ -3,5 +3,5 @@
 
 ## This is the FBC Training Repository.
 <br />
-~ master branch
-~ readme-edits branch
+~ master branch <br />
+~ readme-edits branch <br />
