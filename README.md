@@ -1,4 +1,8 @@
 # training
-Facebook Connectivity Training
+**Facebook Connectivity Training**
 
-This is the FBC Training Repository.
+## This is the FBC Training Repository. <br />
+~ master branch <br />
+~ readme-edits branch <br />
+
+~ use @mention to ask for feedback <br /> 
