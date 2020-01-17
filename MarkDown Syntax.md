@@ -43,7 +43,6 @@ Images (titles are optional) <br />
 ![alt text](/URL to image/img.jpg "Title") <br />
 ![](https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2UzNWI2MDAxMDk1Y2M0NGE4MzdjYTRkMzZjOGMxY2Q3YmVjYTg2MTkuanBnIl0sWyJwIiwidGh1bWIiLCJ4MzkwPiJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA4MSAtYXV0by1vcmllbnQiXV0/e35b6001095cc44a837ca4d36c8c1cd7beca8619.jpg)
 
-![](/tom/pictures/aldar-min.jpg)
 
 
 
