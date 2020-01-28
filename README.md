@@ -1,3 +1,5 @@
+![alt text](https://github.com/englishthomas/training/blob/master/graphics/FBC%20Color%20Logo.png)
+
 # training
 **Facebook Connectivity Training**
 
