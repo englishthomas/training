@@ -1,5 +1,5 @@
 ![FBC Logo](https://github.com/englishthomas/training/blob/master/graphics/FBC%20Color%20Logo.png)
-![] (https://github.com/englishthomas/training/blob/master/graphics/FBC%20Logo%20Globe%20Color.png)
+![FBC](https://github.com/englishthomas/training/blob/master/graphics/FBC_Logo_Globe_Color.png)
 
 <img src="graphics/englishthomas/training/blob/master/graphics/FBC%20Color%20Logo.png" width="20" height="10" >
 
