@@ -2,8 +2,7 @@
 ![FBC](https://github.com/englishthomas/training/blob/master/graphics/FBC_Logo_Globe_Color.png)
 
 ![FBC2](https://github.com/englishthomas/training/blob/master/graphics/FBC_Logo_Globe_Color.png | width=20)
-![FBC3](https://github.com/englishthomas/training/blob/master/graphics/FBC_Logo_Globe_Color.png =30x20)
-<img src="https://github.com/englishthomas/training/blob/master/graphics/FBC_Logo_Globe_Color.png" width="20" height="10" />
+![very good|512x397](https://github.com/englishthomas/training/blob/master/graphics/FBC_Logo_Globe_Color.png)
 
 # training
 **Facebook Connectivity Training**
