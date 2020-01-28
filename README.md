@@ -1,8 +1,8 @@
 ![FBC Logo](https://github.com/englishthomas/training/blob/master/graphics/FBC%20Color%20Logo.png)
 
-![Logo](graphics/englishthomas/training/blob/master/graphics/FBC%20Color%20Logo.png)
+<img src>="graphics/englishthomas/training/blob/master/graphics/FBC%20Color%20Logo.png |width= 40 height=10
 
-![Logo 2](graphics/FBC%20Color%20Logo.png)
+
 
 
 # training
