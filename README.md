@@ -4,8 +4,6 @@
 <img src="graphics/englishthomas/training/blob/master/graphics/FBC%20Color%20Logo.png" width="20" height="10" >
 
 
-
-
 # training
 **Facebook Connectivity Training**
 
