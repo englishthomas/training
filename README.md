@@ -1,15 +1,14 @@
 ![image](https://user-images.githubusercontent.com/59058755/73372326-dfafdd80-426b-11ea-9ed1-7c3c6553b45c.png)
 
-![FBC_Logo_Normal](https://user-images.githubusercontent.com/59058755/73371652-d40fe700-426a-11ea-8278-a6897e608f3c.png)
-
-![FBC](https://github.com/englishthomas/training/blob/master/graphics/FBC_Logo_Globe_Color.png)
-
-
-# training
-**Facebook Connectivity Training**
-
 ## This is the FBC Training Repository. <br />
 ~ master branch <br />
-~ readme-edits branch <br />
 
-~ use @mention to ask for feedback <br /> 
+# **Magma Training**
+Magma is an open source, software platform that gives network operators a manageable, flexible and extendable mobile core network solution.
+
+Magma is a platform to enable third party networks to extend Mobile Network Operator (MNO) coverage.
+
+Magma is available as Open Source. 
+
+
+![globe](https://user-images.githubusercontent.com/59058755/73373621-c7d95900-426d-11ea-93ff-53ca78fddc5e.png)
