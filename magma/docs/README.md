@@ -1,7 +1,7 @@
-Working directory for FB GitHub docusaurus documents
+## Working directory for FB GitHub docusaurus documents
 
-Basics
-Orchestrator
-Access Gateway
-FGW
-Symphony (NMS)
+1. Basics
+2. Orchestrator
+3. Access Gateway
+4. FGW
+5. Symphony (NMS)
