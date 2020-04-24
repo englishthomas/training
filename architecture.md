@@ -33,9 +33,9 @@ LTE network, the AGW implements an evolved packet core (EPC), and a
 combination of:
 
 <ul>
-	<li> MME Mobility Management Entity</li>
-	<li> PGW (SGi) Packet Gateway </li>
-	<li> SGW Service Gateway </li>
+    <li> MME Mobility Management Entity</li>
+    <li> PGW (SGi) Packet Gateway </li>
+    <li> SGW Service Gateway </li>
 </ul>
 
 
