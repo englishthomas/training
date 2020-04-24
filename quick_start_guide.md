@@ -194,7 +194,6 @@ Sep 27 22:57:35 magma-dev magmad\[6226\]: \[2018-09-27 22:57:35,550 INFO root\] 
 Sep 27 22:57:55 magma-dev magmad\[6226\]: \[2018-09-27 22:57:55,684 INFO root\] Processing config update g1
 Sep 27 22:57:55 magma-dev control\_proxy\[6418\]: 2018-09-27T22:57:55.683Z \[127.0.0.1 -\> streamer-controller.magma.test,8443\] \"POST /magma.Streamer/GetUpdates HTTP/2\" 200 7bytes 0.009s
 ```
-<br/>
 
 ## Setup the Network Management System (NMS)
 
