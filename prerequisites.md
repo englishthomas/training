@@ -17,7 +17,7 @@ between VM's.
 Install the following onto the PC/Laptop that will be deploying the
 Magma Dev Package:
 
-## Development Tools
+### Development Tools
 
 Install the following developer tools:
 
@@ -42,7 +42,7 @@ Install the following developer tools:
     manages the Orchestrator cloud deployment  <br/><br/>
 	
 
-Prepare the following hardware & software:
+### Prepare the following hardware & software:
 
 7.  **An eNodeB** - the recommended and tested models are:
 
@@ -56,7 +56,7 @@ Prepare the following hardware & software:
 
 Support for other RAN hardware can be implemented inside
 the enodebd service on the AGW, it is recommended to start with one of
-the above eNodeB's.<br/>  
+the above eNodeB's.<br/><br/>
 
 
 8.  **An Access Gateway (AGW)** - the recommended requirements are:
@@ -66,8 +66,7 @@ the above eNodeB's.<br/>
 
 -   A USB stick with 2GB+ capacity to load a Debian Stretch ISO Used to
     build the AGW.
-    *To add the Magma Access Gateway (AGW) to the new network, use the
-    Magma Network Management System (NMS).*  
+    *To add the Magma Access Gateway (AGW) to the new network, use the Magma Network Management System (NMS).* <br/><br/> 
 	
 9.  **An AWS Account** - with the permissions to create multiple Amazon
     EC2 virtual servers for the Magma Orchestrator, Network Management
@@ -81,7 +80,7 @@ the above eNodeB's.<br/>
 
 -   Obtain an \<access key ID\> for an administrator account
 
--   Obtain a \<secret key\> for an administrator account
+-   Obtain a \<secret key\> for an administrator account<br/><br/>
 
 
 10. **Magma Dev Package** - clone from the [[Facebook
@@ -91,13 +90,13 @@ the above eNodeB's.<br/>
 -   Setup a [[GitHub
     Account]{.underline}](https://help.github.com/en/github/getting-started-with-github/set-up-git)
 
--   Install Git to use command line
+-   Install Git to use command line<br/><br/>
 
 
-11. **A Registered Domain**/URL for Orchestrator endpoints
+11. **A Registered Domain**/URL for Orchestrator endpoints<br/><br/>
 
 12. **CPE** such as smartphone or tablet SIM card with known key values
-    for testing.
+    for testing.<br/><br/>
 	
 
 ### Installing Homebrew
@@ -119,6 +118,7 @@ pyenv global 3.7.3
 pip3 install ansible fabric3 jsonpickle requests PyYAML
 vagrant plugin install vagrant-vbguest
 ```
+<br/><br/>
 
 **Installing Docker**
 Download and install Docker onto the PC/Laptop that will be deploying
@@ -136,7 +136,7 @@ height="3.555344488188976in"}
 
 ![](media/image2.png){width="3.9911832895888013in"
 height="3.054790026246719in"}
-
+<br/><br/>
 
 ## Setup AWS-IAM-Authenticator
 
@@ -161,7 +161,7 @@ aws configure
 When prompted by `aws configure` to provide an <access key ID> and
 <secret key> for an administrator user in AWS (do not use the root
 user account). Skip this step if you will use something else for
-managing AWS credentials.
+managing AWS credentials.<br/><br/>
 
 
 ## Preparing the Production Hardware
@@ -192,7 +192,7 @@ requirements for the AGW production hardware are:
 5.  A USB stick with 2GB+ capacity to load a Debian Stretch ISO
 
 6.  Peripherals (keyboard, screen) for your production AGW box for use
-    during provisioning
+    during provisioning<br/><br/>
 	
 
 ### Orchestrator and NMS
