@@ -39,9 +39,7 @@ Install the following developer tools:
     applications; define, install, and upgrade
 
 6.  [[Terraform]](https://www.terraform.io/downloads.html)
-    manages the Orchestrator cloud deployment  
-	
-	
+    manages the Orchestrator cloud deployment  <br/><br/>
 	
 
 Prepare the following hardware & software:
