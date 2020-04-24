@@ -129,9 +129,9 @@ Creating fluentd \... **done**
 Creating orc8r\_proxy\_1 \... **done**
 Creating orc8r\_controller\_1 \... **done**
 ```
-<br/><br/>
+<br/>
 
-###Certificates
+### Certificates
 
 The Orchestrator application containers will bootstrap **certificates**
 on startup which are cached for future runs. Watch the
@@ -196,7 +196,7 @@ Sep 27 22:57:55 magma-dev magmad\[6226\]: \[2018-09-27 22:57:55,684 INFO root\] 
 Sep 27 22:57:55 magma-dev control\_proxy\[6418\]: 2018-09-27T22:57:55.683Z \[127.0.0.1 -\> streamer-controller.magma.test,8443\] \"POST /magma.Streamer/GetUpdates HTTP/2\" 200 7bytes 0.009s
 ```
 <br/><br/>
-Setup the Network Management System (NMS)
+## Setup the Network Management System (NMS)
 
 Magma provides a UI for configuring and monitoring the networks.\
 To set up the NMS to talk to your local Orchestrator:
