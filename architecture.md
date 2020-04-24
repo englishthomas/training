@@ -68,7 +68,7 @@ Magma has three major components:
 
     -   **Relay**: The Orchestrator acts as a relay between gateway
         nodes allowing for the brokering of trust between nodes
-        running in different domains.
+        running in different domains.<br></br>
 
 -   **Federation Gateway (FGW):**  The Federation Gateway integrates the
     Mobile Network Operators (MNO) core network with Magma by using
