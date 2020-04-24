@@ -39,8 +39,8 @@ Install the following developer tools:
     applications; define, install, and upgrade
 
 6.  [[Terraform]](https://www.terraform.io/downloads.html)
-    manages the Orchestrator cloud deployment
-
+    manages the Orchestrator cloud deployment  
+	
 
 Prepare the following hardware & software:
 
@@ -56,7 +56,7 @@ Prepare the following hardware & software:
 
 Support for other RAN hardware can be implemented inside
 the enodebd service on the AGW, it is recommended to start with one of
-the above eNodeB's.
+the above eNodeB's.<br/>  
 
 
 8.  **An Access Gateway (AGW)** - the recommended requirements are:
@@ -67,9 +67,8 @@ the above eNodeB's.
 -   A USB stick with 2GB+ capacity to load a Debian Stretch ISO Used to
     build the AGW.
     *To add the Magma Access Gateway (AGW) to the new network, use the
-    Magma Network Management System (NMS).*
+    Magma Network Management System (NMS).*  
 	
-
 9.  **An AWS Account** - with the permissions to create multiple Amazon
     EC2 virtual servers for the Magma Orchestrator, Network Management
     System (NMS) and Access Gateways if they are deployed in the
