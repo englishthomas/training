@@ -32,9 +32,11 @@ The AGW works with existing, unmodified commercial radio hardware. In an
 LTE network, the AGW implements an evolved packet core (EPC), and a
 combination of:
 
-     -   MME Mobility Management Entity
-     -   PGW (SGi) Packet Gateway
-     -   SGW Service Gateway </li>
+
+    -   **Network Management System (NMS):** The NMS provides bootstrap
+    -   MME Mobility Management Entity
+    -   PGW (SGi) Packet Gateway
+    -   SGW Service Gateway </li>
 
 
 -   **Orchestrator (ORC8r):**  The Orchestrator is a cloud service that
