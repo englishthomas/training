@@ -23,19 +23,14 @@ Magma has three major components:
     example, at a cell tower, as software connected to an eNodeB. The
     AGW can also be deployed in a public or private cloud hosted
     environment.
-
-	The AGW uses the **TR069** (S1) Interface for both provisioning the
-	eNodeB and collecting the performance metrics. It defines the
-	application layer protocol for remote management.
-
-The AGW works with existing, unmodified commercial radio hardware. In an
-LTE network, the AGW implements an evolved packet core (EPC), and a
-combination of:
-
-    The Orchestrator has 3 main functions:
-
-    -   **Network Management System (NMS):** The NMS provides bootstrap
-
+    
+    The AGW uses the **TR069** (S1) Interface for both provisioning the
+    eNodeB and collecting the performance metrics. It defines the
+    application layer protocol for remote management.
+    
+    The AGW works with existing, unmodified commercial radio hardware. In an
+    LTE network, the AGW implements an evolved packet core (EPC), and a
+    combination of:
 
     -   MME Mobility Management Entity
     -   PGW (SGi) Packet Gateway
