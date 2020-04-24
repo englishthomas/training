@@ -64,7 +64,7 @@ the above eNodeB's.<br/><br/>
     128GB-256GB SSD storage which can support a Debian Linux installation.
 	With a minimum of 2+ physical ethernet interfaces (enp1s0=SGi and enp2s0= S1)
 
--   A USB stick with 2GB+ capacity to load a Debian Stretch ISO Used to
+	- A USB stick with 2GB+ capacity to load a Debian Stretch ISO Used to
     build the AGW.
     *To add the Magma Access Gateway (AGW) to the new network, use the Magma Network Management System (NMS).* <br/><br/> 
 	
@@ -74,23 +74,23 @@ the above eNodeB's.<br/><br/>
     cloud. When using access and secret keys for an administrator
     account ***do not use*** the root account.
 
--   Create Root account
+	- Create Root account
 
--   Create an Admin User account
+	- Create an Admin User account
 
--   Obtain an \<access key ID\> for an administrator account
+	- Obtain an \<access key ID\> for an administrator account
 
--   Obtain a \<secret key\> for an administrator account<br/><br/>
+	- Obtain a \<secret key\> for an administrator account<br/><br/>
 
 
 10. **Magma Dev Package** - clone from the [[Facebook
     Github]{.underline}](https://github.com/facebookincubator/magma/)
     repository
 
--   Setup a [[GitHub
+	- Setup a [[GitHub
     Account]{.underline}](https://help.github.com/en/github/getting-started-with-github/set-up-git)
 
--   Install Git to use command line<br/><br/>
+	- Install Git to use command line<br/><br/>
 
 
 11. **A Registered Domain**/URL for Orchestrator endpoints<br/><br/>
@@ -121,6 +121,7 @@ vagrant plugin install vagrant-vbguest
 <br/><br/>
 
 **Installing Docker**
+
 Download and install Docker onto the PC/Laptop that will be deploying
 the Magma Dev Package.
 
@@ -176,11 +177,9 @@ requirements for the AGW production hardware are:
 
 	NICs that support Hardware Offloading include:
 
--   NIC number 1
-
--   NIC number 2
-
--   etc . . .
+	- NIC number 1
+	- NIC number 2
+	- etc . . .
 
 
 2.  AMD64 dual-core processor, 2GHz clock speed or faster
