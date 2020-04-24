@@ -34,7 +34,7 @@ Magma has three major components:
 
     -   MME Mobility Management Entity
     -   PGW (SGi) Packet Gateway
-    -   SGW Service Gateway </li>
+    -   SGW Service Gateway <br></br>
 
 
 -   **Orchestrator (ORC8r):**  The Orchestrator is a cloud service that
