@@ -32,10 +32,9 @@ The AGW works with existing, unmodified commercial radio hardware. In an
 LTE network, the AGW implements an evolved packet core (EPC), and a
 combination of:
 
-	- MME Mobility Management Entity
-
-	- PGW (SGi) Packet Gateway
-
+	* MME Mobility Management Entity
+	* PGW (SGi) Packet Gateway
+	
 	- SGW Service Gateway
 
 
