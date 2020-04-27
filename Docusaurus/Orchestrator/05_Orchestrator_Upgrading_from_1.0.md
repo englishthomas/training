@@ -1,5 +1,4 @@
 ## Upgrading from 1.0
-==================
 
 Review the [[Installing
 Orchestrator]](https://facebookincubator.github.io/magma/docs/next/orc8r/deploy_install) to
@@ -13,7 +12,7 @@ Pay careful attention to match the variables in your new root module to the ones
 ## Migrating Old State
 -------------------
 
-In the following instructions, ```OLDTF``` refers to the directory where you put your *existing* root Terraform module and its state files, and ```NEWTF`` refers to the directory where you put your *new* root Terraform module.
+In the following instructions, ```OLDTF``` refers to the directory where you put your *existing* root Terraform module and its state files, and ```NEWTF``` refers to the directory where you put your *new* root Terraform module.
 
 ```
 cd OLDT
