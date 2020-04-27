@@ -1,9 +1,4 @@
 # Orchestrator Overview
-Center-aligned
-{: .alert .alert-info .text-center}
-
-Center-aligned
-{: .text-center}
 
 The following pages will walk you through the full process of spinning
 up a full Orchestrator deployment, from building the various containers
@@ -20,7 +15,7 @@ the Orchestrator containers following this guide and use docker-compose
 at magma/orc8r/cloud/docker to spin up the local version of
 Orchestrator.
 
-**This installation guide targets *production* environments**<br/><br/>
+(&#x1F536;) **This installation guide targets *production* environments**<br/><br/>
 
 ## What is Orchestrator
 
