@@ -1,5 +1,5 @@
-Orchestrator Overview
-=====================
+# Orchestrator Overview
+---
 
 The following pages will walk you through the full process of spinning
 up a full Orchestrator deployment, from building the various containers
@@ -18,9 +18,9 @@ the Orchestrator containers following this guide and use docker-compose
 at magma/orc8r/cloud/docker to spin up the local version of
 Orchestrator.
 
-**This installation guide targets *production* environments**
+**This installation guide targets *production* environments**<br/><br/>
 
-**What is Orchestrator**
+## What is Orchestrator
 
 The Magma **Orchestrator** (orc8r) is a cloud-hosted network management
 plane that provides simple and consistent configuration management and
@@ -28,9 +28,9 @@ the ability to monitor the wireless network securely.
 
 The Orchestrator has a user interface or dashboard called **NMS**
 (Network Management System) used to configure devices & subscribers,
-monitor the network, and KPIs.
+monitor the network, and KPIs.<br/><br/>
 
-**What Does it Do**
+## What Does it Do
 
 The Orchestrator communicates with a southbound API exposed to AGW\'s
 and a northbound rest API to update the configuration and monitor
@@ -50,9 +50,9 @@ certificates with SSL, a TPM key, SSH access, OpenVPN, and cloud
 authentication. The orc8r maintains its own subscriber database but can
 federate authentication to an existing HSS if one does not exist and can
 push the data to each AGW on the network. Configuration changes are made
-in orc8r and pushed down to all the AGWs.
+in orc8r and pushed down to all the AGWs.<br/><br/>
 
-**Where does it Reside**
+## Where does it Reside
 
 The Orchestrator can be hosted on a public or private cloud. For
 production deployments Magma works in an Amazon Elastic Kubernetes
