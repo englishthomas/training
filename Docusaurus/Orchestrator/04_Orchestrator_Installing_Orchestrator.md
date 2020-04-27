@@ -4,12 +4,12 @@
 
 The following Certificates and Private Keys are required before proceeding:
 
-    * The **Public SSL certificate** for your Orchestrator domain, with CN=\*.yourdomain.com.\
-      This can be an SSL certificate chain, but it must be in one file.
+- The **Public SSL certificate** for your Orchestrator domain, with CN=\*.yourdomain.com.\
+  This can be an SSL certificate chain, but it must be in one file.
       
-      * The **Private Key** which corresponds to the above SSL certificate
+- The **Private Key** which corresponds to the above SSL certificate
       
-      * The **rootCA certificate** which verifies your SSL certificate.
+- The **rootCA certificate** which verifies your SSL certificate.
 
 Certificates will be uploaded to AWS Secretsmanager, they can be deleted locally afterwards.
 
