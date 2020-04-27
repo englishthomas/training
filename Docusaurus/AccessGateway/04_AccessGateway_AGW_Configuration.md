@@ -72,7 +72,8 @@ If this is a fresh Orchestrator install, you will be prompted to create your fir
 ![A screenshot of a cell phone Description automatically
 generated](media/image1.png){width="4.7273687664042in"
 height="3.546537620297463in"}
-<br/>
+
+<br><br/>
 
 ### Configure the RAN/Network Configuration
 
