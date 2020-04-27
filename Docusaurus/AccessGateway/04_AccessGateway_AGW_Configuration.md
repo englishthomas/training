@@ -46,7 +46,7 @@ AGW$ sudo vi control_proxy.yml
 
 rootca_cert: **/var/opt/magma/tmp/certs/rootCA.pem
 ```
-<br><br/>
+<br/>
 
 4.  Restart your services to pick up the config changes:
 
@@ -54,12 +54,12 @@ rootca_cert: **/var/opt/magma/tmp/certs/rootCA.pem
 AGW$ sudo service magma@* stop
 AGW$ sudo service magma@magmad restart
 ```
-<br><br/>
+<br/>
 
 ### Creating and Configuring Your Network
 
 Navigate to your Network Management System (NMS) instance,
-[[https://nms.yourdomain.com]](https://nms.yourdomain.com), log in with the administrator credentials you provisioned when installing Orchestrator.<br><br/>
+[https://nms.yourdomain.com](https://nms.yourdomain.com), log in with the administrator credentials you provisioned when installing Orchestrator.<br><br/>
 
 ### Create a Network
 
@@ -72,7 +72,7 @@ If this is a fresh Orchestrator install, you will be prompted to create your fir
 ![A screenshot of a cell phone Description automatically
 generated](media/image1.png){width="4.7273687664042in"
 height="3.546537620297463in"}
-<br><br/>
+<br/>
 
 ### Configure the RAN/Network Configuration
 
@@ -86,7 +86,7 @@ To get to Network Management use the app selector in the bottom left of the dash
 
 ![](media/image2.png){width="4.586971784776903in"
 height="3.441502624671916in"}
-<br><br/>
+<br/>
 
 ### Registering and Configuring Your Access Gateway
 
@@ -115,7 +115,7 @@ height="3.441502624671916in"}
 
 ![](media/image3.png){width="4.602597331583552in"
 height="3.379073709536308in"}
-<br><br/>
+<br/>
 
 ### Configure the RAN
 After you create your Access Gateway, configure your EPC/RAN.
@@ -128,7 +128,7 @@ After you create your Access Gateway, configure your EPC/RAN.
 
 ![](media/image4.png){width="5.565138888888889in"
 height="4.085742563429571in"}
-<br><br/>
+<br/>
 
 ### Validate the AGW
 Validate the connection between your AGW and Orchestrator:
@@ -139,6 +139,7 @@ AGW$ journalctl -u magma@magmad -f
     # INFO:root:Checkin Successful!
     # INFO:root:\[SyncRPC\] Got heartBeat from cloud
     # INFO:root:Processing config update gateway\_id
-```<br><br/>
+```
+<br/>
 
 Next steps, configuring an eNodeB.
