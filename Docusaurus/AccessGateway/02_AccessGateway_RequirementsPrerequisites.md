@@ -27,6 +27,6 @@ requirements:
     ([[https://www.debian.org/CD/]](https://www.debian.org/CD/))
 
 -   Etcher (https://www.balena.io/etcher/)
-    ([[https://www.balena.io/etcher/]](https://www.balena.io/etcher/))
+    ([[https://www.balena.io/etcher/]])
     Use to create the boot disk with the Debian image using the [[tutorial
     here]](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-macos#0)
