@@ -9,7 +9,7 @@ The following Certificates and Private Keys are required before proceeding:
       
 - The **Private Key** which corresponds to the above SSL certificate
       
-- The **rootCA certificate** which verifies your SSL certificate.
+- The **rootCA certificate** which verifies your SSL certificate. <br/>
 
 Certificates will be uploaded to AWS Secretsmanager, they can be deleted locally afterwards.
 
@@ -27,6 +27,7 @@ mkdir -p \~/secrets/certs
 4.  Rename your SSL certificate\'s *root CA certificate* to ```rootCA.pem```
 
 5.  Place these 3 files under the directory you created above ``` \~/secrets/certs ```
+<br/>
 
 If you are not worried about a browser warning, you can also self-sign these certs:
 
