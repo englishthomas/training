@@ -26,6 +26,7 @@ do
 done
 ```
 <br/>
+
 ## Build the NMS
 
 3.  After the uploading of the Magma images to your registry, build and publish the Network Management System (NMS) containers:
