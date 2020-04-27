@@ -190,12 +190,14 @@ jsonpath='{.items[0].metadata.name}') --- \ yarn setAdminPassword <admin user em
 
 EKS has been set up with ```external-dns``` so AWS Route53 will already have the appropriate CNAME records for the relevant subdomains of Orchestrator at this point.
 
-    1.  Configure your DNS records on your managed domain name to use the Route53 nameservers in order to resolve these subdomains.
+  1.  Configure your DNS records on your managed domain name to use the Route53 nameservers in order to resolve these subdomains.
 
 The example terraform root module has an output ```nameservers``` which will list the Route53 nameservers for the hosted zone for Orchestrator. You have probably already noticed some output with every ```terraform apply``` that looks like:
 
+```diff
+- **Outputs:**
 ```
-**Outputs:**
+```
 nameservers = [
 "ns-xxxx.awsdns-yy.org",
 "ns-xxxx.awsdns-yy.co.uk",
@@ -204,7 +206,7 @@ nameservers = [
 ]
 ```
 
-    2.  For each of the following subdomains, add an NS Record to the above nameservers on your domain registrar:
+  2.  For each of the following subdomains, add an NS Record to the above nameservers on your domain registrar:
     
     - nms
     - controller
