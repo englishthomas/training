@@ -48,11 +48,10 @@ pyenv global 3.7.3
 pip3 install ansible fabric3 jsonpickle requests PyYAML\
 vagrant plugin install vagrant-vbguest
 ```
-<br><br/>
 
 If you are on MacOS, you should start Docker for Mac and increase the memory allocation for the Docker engine to at least 4GB  in Preferences -> Advanced.
 
-![](media/image3.png){width="4.619792213473316in"
+>![](media/image3.png){width="4.619792213473316in"
 > height="4.286139545056868in"}
 <br><br/>
 
