@@ -75,7 +75,6 @@ height="3.546537620297463in"}
 <br><br/>
 
 ### Configure the RAN/Network Configuration
-
 To get to Network Management use the app selector in the bottom left of the dashboard screen.
 
 1.  Select **Configure** from the left sidebar
@@ -105,7 +104,6 @@ height="3.441502624671916in"}
     MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAECMB9zEbAlLDQLq1K8tgCLO8Kie5IloU4QuAXEjtR19jt0KTkRzTYcBK1XwA+C6                              
     ALVKFWtlxQfrPpwOwLE7GFkZv1i7Lzc6dpqLnufSlvE/Xlq4n5K877tIuNac3U/8un
 ```
-<br/>
 
 2.  **Add Gateway**
 
