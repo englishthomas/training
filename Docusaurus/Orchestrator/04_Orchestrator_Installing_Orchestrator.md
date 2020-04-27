@@ -111,7 +111,8 @@ Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 $ terraform apply
 Apply complete! Resources: 16 added, 0 changed, 0 destroyed.
 ```
-<br/>
+<br>
+
 ### Creating an NMS Admin User
 
 Before the deployment of the NMS, we need to create an admin user for the NMS backend server inside Orchestrator.
