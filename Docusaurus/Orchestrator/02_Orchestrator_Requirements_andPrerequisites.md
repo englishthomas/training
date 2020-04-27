@@ -1,4 +1,4 @@
-# Orchestrator Requirements
+## Orchestrator Requirements
 
 The prerequisites and recommended hardware requirements to deploy
 Orchestrator (ORC8r) are below. If you have deployed a Magma Access
