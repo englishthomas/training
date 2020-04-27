@@ -1,13 +1,12 @@
-Orchestrator Requirements
-=========================
+# Orchestrator Requirements
 
 The prerequisites and recommended hardware requirements to deploy
 Orchestrator (ORC8r) are below. If you have deployed a Magma Access
 Gateway (AGW) some of the prerequisites may have already been completed.
 
 1.  Create an **AWS Account,** access key and a secret key.\
-    > \
-    > To create AWS User credentials with admin permissions:
+    
+    To create AWS User credentials with admin permissions:
 
 ```{=html}
 <!-- -->
