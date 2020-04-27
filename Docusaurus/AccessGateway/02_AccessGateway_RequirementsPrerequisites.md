@@ -22,6 +22,8 @@ requirements:
 
 -   A USB Flash Drive, to create a Debian boot disk
 
+-   Python 3.5	https://www.python.org/
+
 -   Debian [[iso
     Image]](http://cdimage.debian.org/mirror/cdimage/archive/9.9.0/amd64/iso-cd/debian-9.9.0-amd64-netinst.iso) for the boot disk
     https://www.debian.org/CD/
