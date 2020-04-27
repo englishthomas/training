@@ -13,17 +13,15 @@ Follow the below steps to create a USB boot stick and install Debian GNU/Linux o
    2. Create a bootable USB using Etcher [[tutorial
         here]{.underline}](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-macos#0)
 
-   3.  Boot your AGW host from USB\
-        
-        (Press F11 to select boot sequence, caution, this may differ from your machine). Select the non-UEFI option if prompted
-
-    -   Select "Install" option
-
-    -   Network missing firmware "No"
-
-    -   Primary network interface \"enp1s0\"
-
-    -   Configuration
+   3. Boot your AGW host from USB
+      (Press F11 to select boot sequence, caution, this may differ from your machine).
+      
+      Select the non-UEFI option if prompted
+      
+      * Select "Install" option
+      * Network missing firmware "No"
+      * Primary network interface "enp1s0"
+      * Configuration
             Hostname: "magma"
             Domain name: ""
 
