@@ -105,7 +105,7 @@ height="3.441502624671916in"}
     MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAECMB9zEbAlLDQLq1K8tgCLO8Kie5IloU4QuAXEjtR19jt0KTkRzTYcBK1XwA+C6                              
     ALVKFWtlxQfrPpwOwLE7GFkZv1i7Lzc6dpqLnufSlvE/Xlq4n5K877tIuNac3U/8un
 ```
-<br><br/>
+<br/>
 
 2.  **Add Gateway**
 
@@ -131,6 +131,7 @@ After you create your Access Gateway, configure your EPC/RAN.
 
 ![](media/image4.png){width="5.565138888888889in"
 height="4.085742563429571in"}
+
 <br/>
 
 ### Validate the AGW
