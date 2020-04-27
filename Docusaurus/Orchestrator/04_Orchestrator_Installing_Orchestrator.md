@@ -195,7 +195,7 @@ EKS has been set up with ```external-dns``` so AWS Route53 will already have t
 The example terraform root module has an output ```nameservers``` which will list the Route53 nameservers for the hosted zone for Orchestrator. You have probably already noticed some output with every ```terraform apply``` that looks like:
 
 ```diff
--**Outputs:**```
+-**Outputs:**
 ```
 nameservers = [
 "ns-xxxx.awsdns-yy.org",
