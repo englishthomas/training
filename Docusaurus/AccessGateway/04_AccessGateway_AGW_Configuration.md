@@ -25,7 +25,7 @@ HOST$ ssh [[magma\@10.0.2.1]{.underline}](about:blank)
 AGW\$ sudo mkdir -p /var/opt/magma/tmp/certs/
 AGW\$ sudo mv rootCA.pem /var/opt/magma/tmp/certs/rootCA.pem
 ```
-<br><br/>
+<br/>
 
 2.  Point your AGW to your Orchestrator:
 
@@ -34,7 +34,7 @@ AGW$ sudo mkdir -p /var/opt/magma/configs
 AGW$ cd /var/opt/magma/configs
 AGW$ sudo vi control_proxy.yml
 ```
-<br><br/>
+<br/>
 
 3.  Put the following contents into the file:
 
