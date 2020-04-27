@@ -47,7 +47,8 @@ pyenv global 3.7.3
 ```
 pip3 install ansible fabric3 jsonpickle requests PyYAML\
 vagrant plugin install vagrant-vbguest
-```<br><br/>
+```
+<br><br/>
 
 If you are on MacOS, you should start Docker for Mac and increase the memory allocation for the Docker engine to at least 4GB  in Preferences -> Advanced.
 
@@ -65,6 +66,7 @@ virtual machine if you are on a Windows host.
 Follow the previous section on Developer Tools, then install
 additional prerequisite tools (replace brew with your OS-appropriate
 package manager as necessary):
+
 
 ```
 brew install aws-iam-authenticator kubernetes-cli kubernetes-helm terraform
