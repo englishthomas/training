@@ -1,4 +1,4 @@
-# Building Orchestrator Components
+## Building Orchestrator Components
 
 1.  Start up your Docker daemon and run the following:
 
