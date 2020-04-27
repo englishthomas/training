@@ -1,8 +1,9 @@
 # Orchestrator Overview
-```diff
-+ this text is highlighted in green
-- this text is highlighted in red
-```
+Center-aligned
+{: .alert .alert-info .text-center}
+
+Center-aligned
+{: .text-center}
 
 The following pages will walk you through the full process of spinning
 up a full Orchestrator deployment, from building the various containers
