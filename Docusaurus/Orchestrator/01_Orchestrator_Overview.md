@@ -3,9 +3,7 @@
 The following pages will walk you through the full process of spinning
 up a full Orchestrator deployment, from building the various containers
 that you\'ll need, to deploying them onto Amazon Elastic Kubernetes
-Service (EKS). This installation guide targets *production* environments
-- if you aren\'t ready for this, the developer documentation will be up
-shortly.
+Service (EKS). This installation guide targets *production* environments.
 
 Familiarity with the AWS console and the Kubernetes command line are
 expected. The instructions in this section have been tested on MacOS and
