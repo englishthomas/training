@@ -111,7 +111,7 @@ Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 $ terraform apply
 Apply complete! Resources: 16 added, 0 changed, 0 destroyed.
 ```
-<br><br/>
+<br/>
 
 ### Creating an NMS Admin User
 
