@@ -1,6 +1,6 @@
 ## Access Gateway Configuration
 
-### Prerequisite
+### Prerequisites
 Before beginning to configure your Magma Access Gateway, confirm you have:
 
 1.  Completed all the steps in \"[[Access Gateway Setup (On Bare
@@ -10,7 +10,7 @@ Before beginning to configure your Magma Access Gateway, confirm you have:
 2.  Verify that all services are running on the AGW host without crashing by running ```service magma@\* status```
 
 3.  A working Orchestrator setup. Please follow the instructions in "[[Deploying
-    > Orchestrator]](https://facebookincubator.github.io/magma/docs/orc8r/deploying)" for a successful Orchestrator installation.
+    Orchestrator]](https://facebookincubator.github.io/magma/docs/orc8r/deploying)" for a successful Orchestrator installation.
 
 
 ### AGW Configuration 
