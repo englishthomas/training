@@ -22,22 +22,15 @@ Follow the below steps to create a USB boot stick and install Debian GNU/Linux o
       * Network missing firmware "No"
       * Primary network interface "enp1s0"
       * Configuration
-            Hostname: "magma"
-            Domain name: ""
-
-    c.  Root password: "magma"
-
-    d.  Username: "magma"
-
-    e.  Password: "magma"
-
-    f.  Partition disk: \"Use entire disk\"
-
-    g.  Select disk to partition: \"sda\"
-
-    h.  Partitioning scheme: \"All files in one partition\"
-
-    i.  Software selection: Only tick 'ssh server' and 'utilities'(untick all others)
+         - Hostname: "magma"
+         - Domain name: ""
+         - Root password: "magma"
+         - Username: "magma"
+         - Password: "magma"
+         - Partition disk: "Use entire disk"
+         - Select disk to partition: "sda"
+         - Partitioning scheme: "All files in one partition"
+         - Software selection: Only tick 'ssh server' and 'utilities'(untick all others)
     
 
     4.  Connect your SGi interface to the Internet and select this port during the installation process to get an IP using DHCP.<br><br/>
