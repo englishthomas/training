@@ -9,7 +9,7 @@ The following Certificates and Private Keys are required before proceeding:
       
 - The **Private Key** which corresponds to the above SSL certificate
       
-- The **rootCA certificate** which verifies your SSL certificate. <br/>
+- The **rootCA certificate** which verifies your SSL certificate. <br><br/>
 
 Certificates will be uploaded to AWS Secretsmanager, they can be deleted locally afterwards.
 
