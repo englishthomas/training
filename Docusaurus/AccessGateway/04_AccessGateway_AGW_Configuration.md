@@ -69,8 +69,7 @@ If this is a fresh Orchestrator install, you will be prompted to create your fir
 
 2.  Select *lte* as the network type and complete the other fields as you see fit
 
-![A screenshot of a cell phone Description automatically
-generated](media/image1.png){width="4.7273687664042in"
+![A screenshot](media/image1.png){width="4.7273687664042in"
 height="3.546537620297463in"}
 
 <br><br/>
@@ -85,9 +84,10 @@ To get to Network Management use the app selector in the bottom left of the dash
 
 3.  Configure your RAN and EPC parameters which are appropriate for your hardware setup
 
-![](media/image2.png){width="4.586971784776903in"
+![Screen Shot](media/image2.png){width="4.586971784776903in"
 height="3.441502624671916in"}
-<br/>
+
+<br><br/>
 
 ### Registering and Configuring Your Access Gateway
 
@@ -105,7 +105,7 @@ height="3.441502624671916in"}
     MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAECMB9zEbAlLDQLq1K8tgCLO8Kie5IloU4QuAXEjtR19jt0KTkRzTYcBK1XwA+C6                              
     ALVKFWtlxQfrPpwOwLE7GFkZv1i7Lzc6dpqLnufSlvE/Xlq4n5K877tIuNac3U/8un
 ```
-<br/>
+<br><br/>
 
 2.  **Add Gateway**
 
