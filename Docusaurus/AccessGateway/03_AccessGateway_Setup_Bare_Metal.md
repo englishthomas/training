@@ -50,7 +50,7 @@ The machine will reboot but it's not finished yet, the script is still running i
 journalctl -fu agw_installation
 ```
 
-When you see AGW installation is done it means that your AGW installation is complete.<br>br/>
+When you see AGW installation is done it means that your AGW installation is complete.<br><br/>
 
 ### Verify Magma is Running
 
