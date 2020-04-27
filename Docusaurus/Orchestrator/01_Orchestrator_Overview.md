@@ -1,6 +1,7 @@
 # Orchestrator Overview
-
-Some Markdown text with <span style="color:blue">some *blue* text</span>.
+RED APPLE (&#x1F34E;): 🍎
+GREEN APPLE (&#x1F34F;): 🍏
+BLUE HEART (&#x1F499;): 💙
 
 The following pages will walk you through the full process of spinning
 up a full Orchestrator deployment, from building the various containers
