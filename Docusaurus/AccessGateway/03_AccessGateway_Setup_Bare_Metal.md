@@ -41,18 +41,20 @@ Run the following commands:
     su
     wget
     https://raw.githubusercontent.com/facebookincubator/magma/master/lte/gateway/deploy/agw_install.sh
-    sh agw\_install.sh
+    sh agw_install.sh
 ```
 
-The machine will reboot but it\'s not finished yet, the script is still running in the background. You can follow the output by running:
+The machine will reboot but it's not finished yet, the script is still running in the background. You can follow the output by running:
 
 ```
-journalctl -fu agw\_installation
+journalctl -fu agw_installation
 ```
 
-When you see AGW installation is done it means that your AGW installation is complete.
+When you see AGW installation is done it means that your AGW installation is complete.<br>br/>
 
-Verify Magma is running by executing:
+### Verify Magma is Running
+
+Execute the following:
 
 ```
 service magma@* status
