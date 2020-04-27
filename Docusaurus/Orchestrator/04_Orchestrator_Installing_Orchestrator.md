@@ -73,8 +73,7 @@ Create a new root Terraform module in a location of your choice by creating a ne
 -   ```orc8r\_tag```: this should be set to the tag that you used when you pushed the containers you built earlier
 
 Verify the ```source``` variables for the module definitions point to
-```github.com/facebookincubator/magma//orc8r/cloud/deploy/terraform/\<module\>```. Adjust any other parameters as needed. Check the READMEs for the relevant Terraform modules to see additional variables that can be set.<br/>
-
+```github.com/facebookincubator/magma//orc8r/cloud/deploy/terraform/\<module\>```. Adjust any other parameters as needed. Check the READMEs for the relevant Terraform modules to see additional variables that can be set.<br><br/>
 
 ### **Initial Infrastructure Terraform**
 
