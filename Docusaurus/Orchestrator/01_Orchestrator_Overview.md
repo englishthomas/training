@@ -15,7 +15,7 @@ the Orchestrator containers following this guide and use docker-compose
 at magma/orc8r/cloud/docker to spin up the local version of
 Orchestrator.
 
-(&#x1F536;) **This installation guide targets *production* environments**<br/><br/>
+&#x1F536; **This installation guide targets *production* environments**<br/><br/>
 
 ## What is Orchestrator
 
