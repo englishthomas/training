@@ -67,7 +67,6 @@ Follow the previous section on Developer Tools, then install
 additional prerequisite tools (replace brew with your OS-appropriate
 package manager as necessary):
 
-
 ```
 brew install aws-iam-authenticator kubernetes-cli kubernetes-helm terraform
 pip3 install awscli
