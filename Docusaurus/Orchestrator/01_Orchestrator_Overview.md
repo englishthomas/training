@@ -1,7 +1,8 @@
 # Orchestrator Overview
-RED APPLE (&#x1F34E;): 🍎
-GREEN APPLE (&#x1F34F;): 🍏
-BLUE HEART (&#x1F499;): 💙
+```diff
++ this text is highlighted in green
+- this text is highlighted in red
+```
 
 The following pages will walk you through the full process of spinning
 up a full Orchestrator deployment, from building the various containers
