@@ -14,9 +14,7 @@ Follow the below steps to create a USB boot stick and install Debian GNU/Linux o
         here]{.underline}](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-macos#0)
 
    3. Boot your AGW host from USB
-      (Press F11 to select boot sequence, caution, this may differ from your machine).
-      
-      Select the non-UEFI option if prompted
+      (Press F11 to select boot sequence, caution, this may differ from your machine). Select the non-UEFI option if prompted
       
       * Select "Install" option
       * Network missing firmware "No"
@@ -33,7 +31,7 @@ Follow the below steps to create a USB boot stick and install Debian GNU/Linux o
          - Software selection: Only tick 'ssh server' and 'utilities'(untick all others)
     
 
-    4.  Connect your SGi interface to the Internet and select this port during the installation process to get an IP using DHCP.<br><br/>
+   4.  Connect your SGi interface to the Internet and select this port during the installation process to get an IP using DHCP.<br><br/>
 
 ## Deploy Magma on the AGW host
 
