@@ -1,15 +1,15 @@
-## Access Gateway Setup (Bare Metal Setup) <br><br/>
-
+## Access Gateway Setup (Bare Metal Setup)
+<br><br/>
 Complete the Magma AGW prerequisites prior to proceeding.<br><br/>
 
 ## Create a Boot Disk
 
 Follow the below steps to create a USB boot stick and install Debian GNU/Linux on your AGW host onto a single-tenant physical server.
 
-    1.  Download an .iso image from [[Debian
+    1. Download an .iso image from [[Debian
         mirror]{.underline}](http://cdimage.debian.org/mirror/cdimage/archive/9.9.0/amd64/iso-cd/debian-9.9.0-amd64-netinst.iso)
 
-    2.  Create a bootable USB using Etcher [[tutorial
+    2. Create a bootable USB using Etcher [[tutorial
         here]{.underline}](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-macos#0)
 
     3.  Boot your AGW host from USB\
