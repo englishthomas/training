@@ -43,7 +43,6 @@ run one more script here:
 cd \~/secrets/certs
 MAGMA\_ROOT/orc8r/cloud/deploy/scripts/create\_application\_certs.sh yourdomain.com
 ```
-<br><br/>
 
 ### Infrastructure and Application Installation
 
@@ -75,7 +74,7 @@ Create a new root Terraform module in a location of your choice by creating a ne
 
 Verify the ```source``` variables for the module definitions point to
 ```github.com/facebookincubator/magma//orc8r/cloud/deploy/terraform/\<module\>```. Adjust any other parameters as needed. Check the READMEs for the relevant Terraform modules to see additional variables that can be set.<br/>
-<br><br/>
+
 
 ### **Initial Infrastructure Terraform**
 
