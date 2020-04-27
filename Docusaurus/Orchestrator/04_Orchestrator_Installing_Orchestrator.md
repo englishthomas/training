@@ -140,7 +140,7 @@ Verifying - Enter Export Password:
 Now on your host, copy the client certificates for the admin operator we just created into the secrets directory:
 
 ```
-cd \~/secrets/certs
+cd ~/secrets/certs
 for certfile in admin_operator.pem admin_operator.key.pem admin_operator.pfx
 do
 kubectl cp ${CNTLR\_POD}:/var/opt/magma/bin/${certfile} ./${certfile}
@@ -160,7 +160,7 @@ $ terraform apply
 Apply complete! Resources: 1 added, 0 changed, 1 destroyed.
 ```
 
-At this point, you can ```rm -rf \~/secrets``` to remove the certificates from your local disk (we recommend this for security). If you ever need to update your certificates, you can create this local directory again and ```terraform taint``` the ```null\_resource``` to re-upload local certificates to Secretsmanager.<br><br/>
+At this point, you can ```rm -rf ~/secrets``` to remove the certificates from your local disk (we recommend this for security). If you ever need to update your certificates, you can create this local directory again and ```terraform taint``` the ```null_resource``` to re-upload local certificates to Secretsmanager.<br><br/>
 
 ### **Final Application Terraform**
 
@@ -168,9 +168,8 @@ At this point, you can ```rm -rf \~/secrets``` to remove the certificates from
 
 The final application, Terraform for the last time, is to deploy the Network Management System (NMS).
 
-    1.  In your root Terraform module, set the ```deploy_nms``` variable to true now
-
-    2.  Run the Terraform apply command
+  1.  In your root Terraform module, set the ```deploy_nms``` variable to true now
+  2.  Run the Terraform apply command
 
 ```
 $ terraform apply
@@ -178,13 +177,14 @@ $ terraform apply
 Apply complete! Resources: 1 added, 1 changed, 0 destroyed.
 ```
 
-    3.  Lastly, create an admin user on the NMS:
+  3.  Lastly, create an admin user on the NMS:
 
 ```
 kubectl exec -it \
 $(kubectl get pod -l app.kubernetes.io/component=magmalte -o
 jsonpath='{.items[0].metadata.name}') --- \ yarn setAdminPassword <admin user email> \<admin user password>
 ```
+
 
 ### DNS Resolution
 
