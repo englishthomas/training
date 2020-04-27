@@ -24,8 +24,8 @@ requirements:
 
 -   Debian [[iso
     Image]](http://cdimage.debian.org/mirror/cdimage/archive/9.9.0/amd64/iso-cd/debian-9.9.0-amd64-netinst.iso) for the boot disk
-    (https://www.debian.org/CD/
+    https://www.debian.org/CD/
 
--   Etcher (https://www.balena.io/etcher/)
+-   Etcher https://www.balena.io/etcher/
     Use to create the boot disk with the Debian image using the [[tutorial
     here]](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-macos#0)
