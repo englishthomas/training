@@ -105,6 +105,7 @@ height="3.441502624671916in"}
     MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAECMB9zEbAlLDQLq1K8tgCLO8Kie5IloU4QuAXEjtR19jt0KTkRzTYcBK1XwA+C6                              
     ALVKFWtlxQfrPpwOwLE7GFkZv1i7Lzc6dpqLnufSlvE/Xlq4n5K877tIuNac3U/8un
 ```
+<br/>
 
 2.  **Add Gateway**
 
@@ -116,6 +117,7 @@ height="3.441502624671916in"}
 
 ![](media/image3.png){width="4.602597331583552in"
 height="3.379073709536308in"}
+
 <br/>
 
 ### Configure the RAN
