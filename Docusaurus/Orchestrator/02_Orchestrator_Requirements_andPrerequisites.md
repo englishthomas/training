@@ -7,11 +7,10 @@ Gateway (AGW) some of the prerequisites may have already been completed.
 1.  Create an **AWS Account,** access key and a secret key.
     
     To create AWS User credentials with admin permissions:
-<ul>
-    <li>a.  Create Root account<li?
-    b.  Create an Admin User account
-    c.  Obtain an \<access key ID\> for an administrator account
-    d.  Obtain a \<secret key\> for an administrator account<ul> <br><br/>
+    - Create Root account
+    - Create an Admin User account
+    - Obtain an \<access key ID\> for an administrator account
+    - Obtain a \<secret key\> for an administrator account <br><br/>
 
 
 2.  Have the following **Developer Tools** installed prior to proceeding:
