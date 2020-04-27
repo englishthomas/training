@@ -33,7 +33,7 @@ Follow the below steps to create a USB boot stick and install Debian GNU/Linux o
 
    4.  Connect your SGi interface to the Internet and select this port during the installation process to get an IP using DHCP.<br><br/>
 
-## Deploy Magma on the AGW host
+### Deploy Magma on the AGW host
 
 Run the following commands:
 
