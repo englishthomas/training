@@ -1,6 +1,7 @@
 ## Magma Access Gateway (AGW) Overview
 
 <br/>
+
 ### What is the Access Gateway (AGW)
 
 The Access Gateway provides the mobile packet core (EPC) functionality,
