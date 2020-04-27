@@ -10,7 +10,7 @@ Gateway (AGW) some of the prerequisites may have already been completed.
     a.  Create Root account
     b.  Create an Admin User account
     c.  Obtain an \<access key ID\> for an administrator account
-    d.  Obtain a \<secret key\> for an administrator account
+    d.  Obtain a \<secret key\> for an administrator account <br><br/>
 
 
 2.  Have the following **Developer Tools** installed prior to proceeding:
@@ -52,6 +52,7 @@ If you are on MacOS, you should start Docker for Mac and increase the memory all
 
 ![](media/image3.png){width="4.619792213473316in"
 > height="4.286139545056868in"}
+<br><br/>
 
 ## Build/Deploy Tooling
 
