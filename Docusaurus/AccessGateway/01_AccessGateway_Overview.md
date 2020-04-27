@@ -1,5 +1,5 @@
 ## Magma Access Gateway (AGW) Overview
-<br>
+
 
 ### What is the Access Gateway (AGW)
 
