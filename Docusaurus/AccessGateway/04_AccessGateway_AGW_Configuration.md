@@ -7,10 +7,10 @@ Before beginning to configure your Magma Access Gateway, confirm you have:
     Metal](https://facebookincubator.github.io/magma/docs/lte/setup_deb).
     For this part, we strongly recommend that you SSH into the AGW box from a host machine instead of using the AGW directly.
 
-2.  Verify that all services are running on the AGW host without crashing by running ```service magma@\* status```
+2.  Verify that all services are running on the AGW host without crashing by running ```service magma@* status```
 
 3.  A working Orchestrator setup. Please follow the instructions in [Deploying
-    Orchestrator](https://facebookincubator.github.io/magma/docs/orc8r/deploying) for a successful Orchestrator installation.
+    Orchestrator](https://facebookincubator.github.io/magma/docs/orc8r/deploying) for a successful Orchestrator installation.<br><br/>
 
 
 ### AGW Configuration 
@@ -24,7 +24,7 @@ HOST$ ssh [[magma\@10.0.2.1]{.underline}](about:blank)
 
 AGW\$ sudo mkdir -p /var/opt/magma/tmp/certs/
 AGW\$ sudo mv rootCA.pem /var/opt/magma/tmp/certs/rootCA.pem
-```
+```<br><br/>
 
 2.  Point your AGW to your Orchestrator:
 
@@ -32,7 +32,7 @@ AGW\$ sudo mv rootCA.pem /var/opt/magma/tmp/certs/rootCA.pem
 AGW$ sudo mkdir -p /var/opt/magma/configs
 AGW$ cd /var/opt/magma/configs
 AGW$ sudo vi control_proxy.yml
-```
+```<br><br/>
 
 3.  Put the following contents into the file:
 
@@ -43,16 +43,14 @@ AGW$ sudo vi control_proxy.yml
 **bootstrap_port**: 443
 
 rootca_cert: **/var/opt/magma/tmp/certs/rootCA.pem
-```
-
+```<br><br/>
 
 4.  Restart your services to pick up the config changes:
 
 ```
 AGW$ sudo service magma@* stop
 AGW$ sudo service magma@magmad restart
-```
-
+```<br><br/>
 
 ### Creating and Configuring Your Network
 
@@ -70,7 +68,7 @@ If this is a fresh Orchestrator install, you will be prompted to create your fir
 ![A screenshot of a cell phone Description automatically
 generated](media/image1.png){width="4.7273687664042in"
 height="3.546537620297463in"}
-
+<br><br/>
 
 ### Configure the RAN/Network Configuration
 
@@ -84,6 +82,7 @@ To get to Network Management use the app selector in the bottom left of the dash
 
 ![](media/image2.png){width="4.586971784776903in"
 height="3.441502624671916in"}
+<br><br/>
 
 ### Registering and Configuring Your Access Gateway
 
@@ -112,7 +111,7 @@ height="3.441502624671916in"}
 
 ![](media/image3.png){width="4.602597331583552in"
 height="3.379073709536308in"}
-
+<br><br/>
 
 ### Configure the RAN
 After you create your Access Gateway, configure your EPC/RAN.
@@ -125,7 +124,7 @@ After you create your Access Gateway, configure your EPC/RAN.
 
 ![](media/image4.png){width="5.565138888888889in"
 height="4.085742563429571in"}
-
+<br><br/>
 
 ### Validate the AGW
 Validate the connection between your AGW and Orchestrator:
@@ -136,6 +135,6 @@ AGW$ journalctl -u magma@magmad -f
     # INFO:root:Checkin Successful!
     # INFO:root:\[SyncRPC\] Got heartBeat from cloud
     # INFO:root:Processing config update gateway\_id
-```
+```<br><br/>
 
 Next steps, configuring an eNodeB.
