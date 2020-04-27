@@ -196,8 +196,6 @@ The example terraform root module has an output ```nameservers``` which will l
 
 ```diff
 -**Outputs:**```
-Outputs:
-{: .gitlab-orange}
 ```
 nameservers = [
 "ns-xxxx.awsdns-yy.org",
