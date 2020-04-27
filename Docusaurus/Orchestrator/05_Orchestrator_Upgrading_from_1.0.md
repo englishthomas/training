@@ -9,8 +9,8 @@ the ```orc8r-helm-aws``` module. If you\'ve already deployed the NMS, you can 
 
 Pay careful attention to match the variables in your new root module to the ones in your old one unless you specifically want to change some configuration. If you change the instance type for EKS worker nodes, you will have to terminate the existing instances one-by-one in the EC2 console after applying Terraform and wait for autoscaling to replace the node.
 
+
 ## Migrating Old State
--------------------
 
 In the following instructions, ```OLDTF``` refers to the directory where you put your *existing* root Terraform module and its state files, and ```NEWTF``` refers to the directory where you put your *new* root Terraform module.
 
@@ -34,7 +34,7 @@ If you would like to migrate your existing timeseries data, come back to the nex
 
 
 ### Migrating Timeseries Data
--------------------------
+
 
 Since 1.0, we\'ve updated the storage solution for timeseries data from an EBS volume mounted on a specific worker node to an EFS-based
 PersistentVolume. If you want to keep your old timeseries data with this migration, perform the following:
