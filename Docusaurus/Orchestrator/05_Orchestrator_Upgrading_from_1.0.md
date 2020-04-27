@@ -7,8 +7,7 @@ familiarize yourself with the installation steps.
 Create a new root Terraform module anywhere. Just like a fresh installation, start by following the basic example root module in
 the ```orc8r-helm-aws``` module. If you\'ve already deployed the NMS, you can leave ```deploy_nms``` set to &#x1F53A; true.
 
-Pay careful attention to match the variables in your new root module to the ones in your old one unless you specifically want to change some configuration. If you change the instance type for EKS worker nodes, you will have to terminate the existing instances one-by-one in the EC2 console after applying Terraform and wait for autoscaling to replace the node.
-
+Pay careful attention to match the variables in your new root module to the ones in your old one unless you specifically want to change some configuration. If you change the instance type for EKS worker nodes, you will have to terminate the existing instances one-by-one in the EC2 console after applying Terraform and wait for autoscaling to replace the node.<br><br/>
 
 ## Migrating Old State
 
@@ -30,8 +29,7 @@ Because the ```helm\_release``` resource in Terraform doesn\'t yet support imp
 
 At this point, you are ready to [[Install
 Orchestrator]](https://facebookincubator.github.io/magma/docs/next/orc8r/deploy_install).
-If you would like to migrate your existing timeseries data, come back to the next section after you\'ve finished deploying the application again. Otherwise, you are good to go.
-
+If you would like to migrate your existing timeseries data, come back to the next section after you\'ve finished deploying the application again. Otherwise, you are good to go.<br><br/>
 
 ### Migrating Timeseries Data
 
