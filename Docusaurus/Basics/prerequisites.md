@@ -37,8 +37,10 @@ Install the following developer tools:
 
 5.  [[Helm](https://helm.sh/) 2.0] manages Kubernetes
     applications; define, install, and upgrade
+    
+6.  Python 3.5 https://www.python.org/ 
 
-6.  [[Terraform]](https://www.terraform.io/downloads.html)
+7.  [[Terraform]](https://www.terraform.io/downloads.html)
     manages the Orchestrator cloud deployment  <br/><br/>
 	
 
