@@ -32,7 +32,7 @@ Gateway (AGW) some of the prerequisites may have already been completed.
 
     -   [[AWS CLi]](https://aws.amazon.com/cli/) Amazon Web Services command line interface
 
-Replace '''brew''' with your OS-appropriate package manager as necessary, or see the [pyenv installation
+Replace ```brew``` with your OS-appropriate package manager as necessary, or see the [pyenv installation
 instructions](https://github.com/pyenv/pyenv#installation).
 
 ```
@@ -94,5 +94,5 @@ this step if you will use something else for managing AWS credentials. <br><br/>
 
     e.  ***Environment Secrets*** - these can be created during ORC8r installation
 
-    f.  **A Registered Domain** -- this is for the Orchestrator endpoints yourdomain.com, a '''domain/subdomain''' which you've
+    f.  **A Registered Domain** -- this is for the Orchestrator endpoints yourdomain.com, a ```domain/subdomain``` which you've
         chosen to host Orchestrator on.
