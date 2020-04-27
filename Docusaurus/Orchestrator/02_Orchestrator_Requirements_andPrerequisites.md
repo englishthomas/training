@@ -7,46 +7,30 @@ Gateway (AGW) some of the prerequisites may have already been completed.
 1.  Create an **AWS Account,** access key and a secret key.\
     
     To create AWS User credentials with admin permissions:
+    a.  Create Root account
+    b.  Create an Admin User account
+    c.  Obtain an \<access key ID\> for an administrator account
+    d.  Obtain a \<secret key\> for an administrator account
 
-```{=html}
-<!-- -->
-```
-a.  Create Root account
 
-b.  Create an Admin User account
+2.  Have the following **Developer Tools** installed prior to proceeding:
 
-c.  Obtain an \<access key ID\> for an administrator account
+    -   [[Homebrew]{.underline}](https://brew.sh/) *only* for MacOS users, see the [[pyenv installation
+        instructions]{.underline}](https://github.com/pyenv/pyenv#installation)
 
-d.  Obtain a \<secret key\> for an administrator account
+    -   [[Docker]{.underline}](https://www.docker.com/)  Image Depository to deploy Magma containers
 
-```{=html}
-<!-- -->
-```
-2.  Have the following **Developer Tools** installed prior to
-    > proceeding:
+    -   [[Helm]{.underline}](https://helm.sh/) 2.0 manages Kubernetes applications; define, install, and upgrade
 
--   [[Homebrew]{.underline}](https://brew.sh/) *only* for MacOS users,
-    > see the [[pyenv installation
-    > instructions]{.underline}](https://github.com/pyenv/pyenv#installation)
+    -   [[Kubectl]{.underline}](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+        kubernetes CLI tool allows you to run commands against Kubernetes clusters
 
--   [[Docker]{.underline}](https://www.docker.com/)  Image Depository to
-    > deploy Magma containers
+    -   [[Terraform]{.underline}](https://www.terraform.io/downloads.html) manages the Orchestrator cloud deployment
 
--   [[Helm]{.underline}](https://helm.sh/) 2.0 manages Kubernetes
-    > applications; define, install, and upgrade
+    -   [[GitHub]{.underline}](https://help.github.com/en/github/getting-started-with-github/set-up-git)
+        Setup a GitHub Account and install Git to use command line
 
--   [[Kubectl]{.underline}](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
-    > kubernetes CLI tool allows you to run commands against Kubernetes
-    > clusters
-
--   [[Terraform]{.underline}](https://www.terraform.io/downloads.html)
-    > manages the Orchestrator cloud deployment
-
--   [[GitHub]{.underline}](https://help.github.com/en/github/getting-started-with-github/set-up-git)
-    > Setup a GitHub Account and install Git to use command line
-
--   [[AWS CLi]{.underline}](https://aws.amazon.com/cli/) Amazon Web
-    > Services command line interface
+    -   [[AWS CLi]{.underline}](https://aws.amazon.com/cli/) Amazon Web Services command line interface
 
 > Replace brew with your OS-appropriate package manager as necessary, or
 > see the [pyenv installation
