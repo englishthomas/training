@@ -113,7 +113,7 @@ height="3.441502624671916in"}
 
     c.  Complete the Add Gateway form using the Challenge Key from above
 
-![](media/image3.png){width="4.602597331583552in"
+![Screen Shot](media/image3.png){width="4.602597331583552in"
 height="3.379073709536308in"}
 
 <br/>
@@ -127,7 +127,7 @@ After you create your Access Gateway, configure your EPC/RAN.
 
 3.  Enable eENODEB transmit
 
-![](media/image4.png){width="5.565138888888889in"
+![Screen Shot](media/image4.png){width="5.565138888888889in"
 height="4.085742563429571in"}
 
 <br/>
