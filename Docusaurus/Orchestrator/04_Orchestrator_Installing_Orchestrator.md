@@ -43,6 +43,7 @@ run one more script here:
 cd \~/secrets/certs
 MAGMA\_ROOT/orc8r/cloud/deploy/scripts/create\_application\_certs.sh yourdomain.com
 ```
+<br><br/>
 
 ### Infrastructure and Application Installation
 
@@ -74,6 +75,7 @@ Create a new root Terraform module in a location of your choice by creating a ne
 
 Verify the ```source``` variables for the module definitions point to
 ```github.com/facebookincubator/magma//orc8r/cloud/deploy/terraform/\<module\>```. Adjust any other parameters as needed. Check the READMEs for the relevant Terraform modules to see additional variables that can be set.<br/>
+<br><br/>
 
 ### **Initial Infrastructure Terraform**
 
@@ -97,6 +99,7 @@ Apply complete! Resources: 70 added, 0 changed, 0 destroyed.
 The ```terraform apply``` will create a Kubeconfig file in the same directory as your root Terraform module. To get access to the k8s cluster, either set your KUBECONFIG environment variable to point to this file or pull this file into your default kubeconfig file at ```~/.kube/config```.
 See 
 [[https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/]](https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/) for more details.
+<br><br/>
 
 ### Initial Application Terraform
 
@@ -110,6 +113,7 @@ Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 $ terraform apply
 Apply complete! Resources: 16 added, 0 changed, 0 destroyed.
 ```
+<br><br/>
 
 ### Creating an NMS Admin User
 
@@ -146,7 +150,7 @@ done
 ```
 
 ```admin_operator.pem``` and ```admin_operator.key.pem``` are the files that NMS will use to authenticate itself with the Orchestrator
-API. ```admin_operator.pfx``` is for you to add to your keychain if you'd like to use the Orchestrator REST API directly (on MacOS, double-click this file and add it to your keychain).
+API. ```admin_operator.pfx``` is for you to add to your keychain if you'd like to use the Orchestrator REST API directly (on MacOS, double-click this file and add it to your keychain).<br><br/>
 
 ### Upload Certs to AWS
 
@@ -158,7 +162,7 @@ $ terraform apply
 Apply complete! Resources: 1 added, 0 changed, 1 destroyed.
 ```
 
-At this point, you can ```rm -rf \~/secrets``` to remove the certificates from your local disk (we recommend this for security). If you ever need to update your certificates, you can create this local directory again and ```terraform taint``` the ```null\_resource``` to re-upload local certificates to Secretsmanager.
+At this point, you can ```rm -rf \~/secrets``` to remove the certificates from your local disk (we recommend this for security). If you ever need to update your certificates, you can create this local directory again and ```terraform taint``` the ```null\_resource``` to re-upload local certificates to Secretsmanager.<br><br/>
 
 ### **Final Application Terraform**
 
@@ -210,7 +214,7 @@ nameservers = [
     - api
 
 If you chose a subdomain prefix for your Orchestrator domain name in your root Terraform module, you'll have to append that subdomain prefix to your NS Record names. For example, if you chose ```orc8r.yourdomain.com``` for your Route53 zone, you'll have to add NS
-Records for ```nms.orc8r```, ```api.orc8r```, and so on.
+Records for ```nms.orc8r```, ```api.orc8r```, and so on.<br><br/>
 
 ### Upgrading the Deployment
 
