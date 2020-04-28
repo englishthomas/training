@@ -12,7 +12,8 @@ Configuration](https://facebookincubator.github.io/magma/docs/lte/config_agw) to
 
 Connect your eNodeB to the ```eth1``` interface of Magma AGW. Magma uses ```eth1``` as the default ```S1``` interface. If you have more than one eNodeB, use an L2 switch to connect all S1 interfaces. For debugging purposes, you may find it useful to perform the following:
 
-   1.  Configure a managed L2 switch (e.g. [NETGEAR](https://www.amazon.com/NETGEAR-GS108T-200NAS-GS108Tv2-Lifetime Protection/dp/B07PS6Z162/) to mirror port X and port Y to port Z.
+   1.  Configure a managed L2 switch (e.g.
+   [NETGEAR](https://www.amazon.com/NETGEAR-GS108T-200NAS-GS108Tv2-LifetimeProtection/dp/B07PS6Z162/) to mirror port X and port Y to      port Z.
 
    2.  Connect port X of that switch to the eth1 interface on your AGW.
 
