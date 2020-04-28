@@ -1,22 +1,19 @@
-**Installing the Federation Gateway (FGW)**
+## Installing the Federation Gateway (FGW)
 
-To install the Federation Gateway, there are 3 required files that are
-deployment-specific.\
+To install the Federation Gateway, there are 3 required files that are deployment-specific.
+
 These are described below:
 
-1.  rootCA.pem - This file should match the rootCA.pem of the
-    Orchestrator that the FGW will connect to.
+1.  ```rootCA.pem``` - This file should match the ```rootCA.pem``` of the Orchestrator that the FGW will connect to.
 
-2.  control\_proxy.yml - This file is used to configure
-    the magmad and control\_proxy services to point toward the
-    appropriate Orchestrator.\
-    \
+2.  ```control_proxy.yml``` - This file is used to configure the magmad and control_proxy services to point toward the
+    appropriate Orchestrator.
+    
     A sample configuration is provided below.
-    The bootstrap\_address, bootstrap\_port, controller\_address,
-    and controller\_port are the parameters that will likely need to be
-    modified.
+    
+    The ```bootstrap_address```, ```bootstrap_port```, ```controller_address``, and ```controller_port``` are the parameters that will likely need to be modified.
 
-3.  .env - This file provides any deployment specific environment
+3.  ```.env``` - This file provides any deployment specific environment
     variables used in the docker-compose.yml of the FGW. A sample
     configuration is provided below:
 
