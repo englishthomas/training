@@ -100,6 +100,7 @@ journalctl -u magma@dnsd -f
 # DHCPREQUEST(eth1) 10.0.2.246 48:bf:74:07:68:ee
 # DHCPACK(eth1) 10.0.2.246 48:bf:74:07:68:ee
 ```
+<br/>
 
 ### Status of eNodeB's
 
