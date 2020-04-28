@@ -11,70 +11,49 @@ These are described below:
     
     A sample configuration is provided below.
     
-    The ```bootstrap_address```, ```bootstrap_port```, ```controller_address``, and ```controller_port``` are the parameters that will likely need to be modified.
+    The ```bootstrap_address```, ```bootstrap_port```, ```controller_address```, and ```controller_port``` are the parameters that will     likely need to be modified.
 
-3.  ```.env``` - This file provides any deployment specific environment
-    variables used in the docker-compose.yml of the FGW. A sample
-    configuration is provided below:
+3.  ```.env``` - This file provides any deployment specific environment variables used in the docker-compose.yml of the FGW. A sample
+    configuration is provided below:<br<<br/>
 
-> **Sample control.proxy.YML**
+### Sample control.proxy.YML
 
-\#
+```
+#
+# Copyright (c) 2016-present, Facebook, Inc.
+# All rights reserved.
+#
+# This source code is licensed under the BSD-style license found in the
+# LICENSE file in the root directory of this source tree. An additional grant
+# of patent rights can be found in the PATENTS file in the same directory.
 
-\# Copyright (c) 2016-present, Facebook, Inc.
+# nghttpx config will be generated here and used
+nghttpx_config_location: /var/tmp/nghttpx.conf
 
-\# All rights reserved.
+# Location for certs
+rootca_cert: /var/opt/magma/certs/rootCA.pem
+gateway_cert: /var/opt/magma/certs/gateway.crt
+gateway_key: /var/opt/magma/certs/gateway.key
 
-\#
+# Listening port of the proxy for local services. The port would be losed
+# for the rest of the world.
+local_port: 8443
 
-\# This source code is licensed under the BSD-style license found in the
+# Cloud address for reaching out to the cloud.
+cloud_address: controller.magma.test
+cloud_port: 443
 
-\# LICENSE file in the root directory of this source tree. An additional
-grant
+bootstrap_address: bootstrapper-controller.magma.test
+bootstrap_port: 443
 
-\# of patent rights can be found in the PATENTS file in the same
-directory.
+# Option to use nghttpx for proxying. If disabled, the individual
+# services would establish the TLS connections themselves.
+proxy_cloud_connections: True
 
-\# nghttpx config will be generated here and used
+# Allows http\_proxy usage if the environment variable is present
+allow_http_proxy: True<br><br/>
 
-nghttpx\_config\_location: /var/tmp/nghttpx.conf
-
-\# Location for certs
-
-rootca\_cert: /var/opt/magma/certs/rootCA.pem
-
-gateway\_cert: /var/opt/magma/certs/gateway.crt
-
-gateway\_key: /var/opt/magma/certs/gateway.key
-
-\# Listening port of the proxy for local services. The port would be
-closed
-
-\# for the rest of the world.
-
-local\_port: 8443
-
-\# Cloud address for reaching out to the cloud.
-
-cloud\_address: controller.magma.test
-
-cloud\_port: 443
-
-bootstrap\_address: bootstrapper-controller.magma.test
-
-bootstrap\_port: 443
-
-\# Option to use nghttpx for proxying. If disabled, the individual
-
-\# services would establish the TLS connections themselves.
-
-proxy\_cloud\_connections: True
-
-\# Allows http\_proxy usage if the environment variable is present
-
-> allow\_http\_proxy: True
->
-> **Sample .env**
+### Sample .env
 
 \# Copyright (c) 2016-present, Facebook, Inc.
 
