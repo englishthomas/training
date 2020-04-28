@@ -44,15 +44,15 @@ Spin up and provision the s1ap tester's VM, make, then make in the integ\_tests 
 
 2.  In the *magma\_test* VM:
 
-    i.  ```cd \$MAGMA\_ROOT/lte/gateway/python && make```
-    ii. ```cd integ\_tests && make```
+    i.  ```cd $MAGMA_ROOT/lte/gateway/python && make```
+    ii. ```cd integ_tests && make```
 
 <br/>
 
 #### Run tests
 
-From ```\$MAGMA\_ROOT/lte/gateway/python/integ\_tests``` on the *magma\_test* VM, run either individual tests or the full suite of
-tests. A safe, non-flaky test to run is ```s1aptests/test\_attach\_detach.py```.
+From ```$MAGMA_ROOT/lte/gateway/python/integ\_tests``` on the *magma_test* VM, run either individual tests or the full suite of
+tests. A safe, non-flaky test to run is ```s1aptests/test_attach_detach.py```.
 
 -   Individual test(s): ```make integ_test TESTS=<test(s)_to_run>```
 -   All tests: ```make integ\_test```
