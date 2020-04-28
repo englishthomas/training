@@ -25,8 +25,8 @@ functionalities:
     and receiving remote calls from the EPC (MME and Sessiond/PCEF)
     components. It converts these to 3GPP compliant messages and sends
     these messages to the appropriate core network components such as
-    HSS, PCRF, OCS and MSC.
-
+    HSS, PCRF, OCS and MSC.<br><br/>
+    
 The Federation Gateway includes the following Core Services:
 
     -   ***S6a Proxy*** - provides GRPC based interface to HSS S6a
