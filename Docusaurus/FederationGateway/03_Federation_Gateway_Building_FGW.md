@@ -5,13 +5,13 @@
 
 Deploy a Federation Gateway when the Mobile Operators Core Network needs to use a Carriers core service components;
 
-       - **MSC** Mobile Switching Center
+   - **MSC** Mobile Switching Center
 
-   **HSS** Home Subscriber Service; PDN, APN, QoS Profile, Access Restrictions
+   - **HSS** Home Subscriber Service; PDN, APN, QoS Profile, Access Restrictions
 
-   **PCRF** Policy Control and Charging Rules Function; Policy control decision-making
+   - **PCRF** Policy Control and Charging Rules Function; Policy control decision-making
 
-   **OCS** Online Charging System <br><br/>
+   - **OCS** Online Charging System <br><br/>
     
 
 ### Building the Components
