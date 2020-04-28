@@ -29,10 +29,10 @@ functionalities:
     
 The Federation Gateway includes the following Core Services:
 
-    -   ***S6a Proxy*** - provides GRPC based interface to HSS S6a
-    -   ***• SWx Proxy*** - provides GRPC based interface to HSS SWx
-    -   ***• Session Proxy*** - controls the session of each subscriber and provides interface to PCRF & OCS (Gx, Gy)
-    -   ***• CSFB*** - the Circuit Switch Fall Back supports
+-   ***S6a Proxy*** - provides GRPC based interface to HSS S6a
+-   ***• SWx Proxy*** - provides GRPC based interface to HSS SWx
+-   ***• Session Proxy*** - controls the session of each subscriber and provides interface to PCRF & OCS (Gx, Gy)
+-   ***• CSFB*** - the Circuit Switch Fall Back supports<br><br/>
 
 **Additional FGW Features**
 
