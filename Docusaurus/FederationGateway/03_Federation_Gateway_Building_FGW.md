@@ -1,39 +1,37 @@
-Building Federation Gateway Components
-======================================
+## Building Federation Gateway Components
 
-**When is an FGW Required?**
+<br><br/>
 
-Deploy a Federation Gateway when the Mobile Operators Core Network needs
-to use a Carriers core service components;
+### When is an FGW Required?
 
-**MSC** Mobile Switching Center
+Deploy a Federation Gateway when the Mobile Operators Core Network needs to use a Carriers core service components;
 
-**HSS** Home Subscriber Service; PDN, APN, QoS Profile, Access
-Restrictions
+    **MSC** Mobile Switching Center
 
-**PCRF** Policy Control and Charging Rules Function; Policy control
-decision-making
+    **HSS** Home Subscriber Service; PDN, APN, QoS Profile, Access Restrictions
 
-**OCS** Online Charging System
+    **PCRF** Policy Control and Charging Rules Function; Policy control decision-making
 
-**Building the Components**
+    **OCS** Online Charging System <br><br/>
+    
 
-1.  Start up your Docker daemon, cd to where you\'ve cloned Magma, and
-    run:
+### Building the Components
 
+1.  Start up your Docker daemon, cd to where you\'ve cloned Magma, and     run:
+
+```
 cd magma/fgw/gateway/docker
-
 docker-compose build --parallel
+```
 
-> If this is your first time building the FGW, this may take a while.
+If this is your first time building the FGW, this may take a while.
 
-2.  When the docker-compose completes, upload the following images to
-    your image registry:
 
-../../../orc8r/tools/docker/publish.sh -r \<REGISTRY\> -i
-gateway\_python
+2.  When the docker-compose completes, upload the following images to your image registry:
 
-../../../orc8r/tools/docker/publish.sh -r \<REGISTRY\> -i gateway\_go
-
-../../../orc8r/tools/docker/publish.sh -r \<REGISTRY\> -i
-gateway\_radius
+```
+../../../orc8r/tools/docker/publish.sh -r <REGISTRY> -i gateway_python
+../../../orc8r/tools/docker/publish.sh -r <REGISTRY> -i gateway_go
+../../../orc8r/tools/docker/publish.sh -r <REGISTRY> -i gateway_radius
+```
+<br><br/>
