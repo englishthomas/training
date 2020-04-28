@@ -38,23 +38,26 @@ The Federation Gateway includes the following Core Services:
 
 
 *Resiliency*
+
 Most of the resiliency features of the FGW are common amongst any gateway, such as system 
 service restarts and service restart on mconfig update.
 
 *Redundancy*
+
 The FGW achieves redundancy through an active/standby configuration. Each gateway reports its health status to Orchestrator comprised of real-time system and service metrics, such as service availability, request failure percentage, and CPU utilization.
 
 *Backup*
+
 A Federation Gateway does not store persistent state, and a standby gateway can quickly be promoted to active during failover events. To aid in quick failover, standby gateway services run in idle mode and Diameter (authentication, authorization, and accounting
 protocol) connections are ready to be created upon receipt of requests.<br><br/>
 
-**Where does it Reside**
+### Where does it Reside
 
 The FGW resides in a Public or Private hosted cloud environment, either
 on either a Bare-Metal or Virtual Machine. It sits between the Magma
 Orchestrator and the MNO's core network.
 
-![FGW Gateway])https://github.com/facebookincubator/magma/blob/master/docs/readmes/assets/federated_gateway_diagram.png)
+![FGW Gateway](https://github.com/facebookincubator/magma/blob/master/docs/readmes/assets/federated_gateway_diagram.png)
 Federation Gateway<br><br/>
 
 ### Deploying Federation Gateway
