@@ -58,7 +58,7 @@ on either a Bare-Metal or Virtual Machine. It sits between the Magma
 Orchestrator and the MNO's core network.
 
 ![FGW Gateway](https://github.com/facebookincubator/magma/blob/master/docs/readmes/assets/federated_gateway_diagram.png)
-Federation Gateway<br><br/>
+<br><br/>
 
 ### Deploying Federation Gateway
 
@@ -67,3 +67,6 @@ The following pages will walk you through the full process of deploying a Federa
 To get a head start on the development setup, you can build the FGW containers following this guide.
 
 1.  Use docker-compose at ```magma/feg/gateway/docker``` to spin up the local version of the FGW.
+
+<br><br/>
+
