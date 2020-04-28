@@ -1,10 +1,8 @@
-**What is the Federation Gateway (FGW)**
+## What is the Federation Gateway (FGW)
 
-The Federation Gateway or FGW integrates the Magma network with the
-Operators core network using standard 3GPP interfaces to existing MNO
-components.
+The Federation Gateway or FGW integrates the Magma network with the Operators core network using standard 3GPP interfaces to existing MNO components.
 
-**What Does it Do**
+### What Does it Do
 
 The Federation Gateway or FGW iacts as a proxy between the Magma Access
 Gateways (AGW) and the operator's network. It facilitates core
