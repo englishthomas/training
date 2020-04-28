@@ -1,4 +1,4 @@
-## Federation Gateway Preprequisites and Requiremets
+## Federation Gateway Prerequisites and Requiremets
 
 
 ### When is an FGW Required?
@@ -40,6 +40,7 @@ Obtain, Install and create the following:
     appropriate Orchestrator. Follow the steps in "Installing the Federation Gateway" to create.
 
 9.  ```.env``` - provides deployment specific environment variables used in the docker-compose.yml of the FGW.
+
 
 Follow the steps in "Installing the Federation Gateway" to create.
 
