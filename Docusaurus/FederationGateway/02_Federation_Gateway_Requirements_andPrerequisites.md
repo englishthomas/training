@@ -39,8 +39,7 @@ Obtain, Install and create the following:
 8.  ```control_proxy.yml``` - This file is used to configure the ```magmad``` and ```control_proxy``` services to point toward the
     appropriate Orchestrator. Follow the steps in "Installing the Federation Gateway" to create.
 
-9.  ```.env``` - provides deployment specific environment variables used in the docker-compose.yml of the FGW.
-
+9.  ```.env``` - provides deployment specific environment variables used in the docker-compose.yml of the FGW.<br><br/>
 
 Follow the steps in "Installing the Federation Gateway" to create.
 
