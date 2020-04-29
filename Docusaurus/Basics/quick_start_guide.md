@@ -3,9 +3,9 @@ id: version-1.0.1-quick_start
 title: Basics Quick Start Guide
 sidebar_label: Quick Start Guide
 hide_title: true
-original_id: quick_start_guide
+original_id: quick_start_guide.md
 ---
-# Quick Start Guide
+## Quick Start Guide
 
 Use this guide for developing on Magma or just trying it out. This quick
 start guide is **not** for deploying Magma in a production environment.
@@ -30,11 +30,11 @@ In the following steps, note the prefix in terminal commands. ```HOST``` means
 to run the indicated command on your host machine, and ```MAGMA-VM``` on
 the ```magma``` vagrant machine under ```lte/gateway```<br/><br/>
 
-## Provisioning the Magma Environment
+### Provisioning the Magma Environment
 
 Open up a 2 fresh Terminal tabs.<br/>
 
-### Terminal Tab 1: Provision the AGW VM
+#### Terminal Tab 1: Provision the AGW VM
 
 The development environment virtualizes the Access Gateway, no
 production hardware is required to test an end-to-end setup. We\'ll be
@@ -53,7 +53,7 @@ without cloud based network management, you can skip the rest of this
 guide and try the [S1AP integration
 tests](https://facebookincubator.github.io/magma/docs/next/lte/s1ap_tests) now.<br/><br/>
 
-### Terminal Tab 2: Orchestrator Build
+#### Terminal Tab 2: Orchestrator Build
 
 Here, we\'ll be building the Orchestrator docker containers.
 
@@ -66,12 +66,12 @@ This will build all the docker images for Orchestrator.
 The ```vagrant up``` from the first tab should finish before the Orchestrator
 image build. Switch to Terminal Tab 1 and continue.<br/><br/>
 
-## Initial Run
+### Initial Run
 
 Once ```vagrant up``` in Terminal Tab 1 completes, continue with the AGW build.<br/><br/>
 
 
-### Terminal Tab 1: Build the AGW from Source
+#### Terminal Tab 1: Build the AGW from Source
 
 Begin the initial build of the AGW from source here.
 
@@ -88,14 +88,14 @@ significantly.
 
 You can monitor what happens in the other tab.<br/><br/>
 
-### Terminal Tab 2: Start Orchestrator
+#### Terminal Tab 2: Start Orchestrator
 
 Once the Orchestrator build completes, start the development
 Orchestrator cloud for the first time. In addition, register the local
 client certificate you\'ll need to access the local API gateway for your
 development stack.
 
-#### To start Orchestrator (*without metrics*):
+### To start Orchestrator (*without metrics*):
 
 ```
 HOST \[magma/orc8r/cloud/docker\]\$ ./run.sh
@@ -110,7 +110,7 @@ Creating orc8r\_proxy\_1 \... **done**
 Creating orc8r\_controller\_1 \... **done**
 ```
 
-#### To start Orchestrator (*with metrics*):
+### To start Orchestrator (*with metrics*):
 
 ```
 HOST \[magma/orc8r/cloud/docker\]\$ ./run.sh -all
@@ -195,7 +195,7 @@ Sep 27 22:57:55 magma-dev magmad\[6226\]: \[2018-09-27 22:57:55,684 INFO root\] 
 Sep 27 22:57:55 magma-dev control\_proxy\[6418\]: 2018-09-27T22:57:55.683Z \[127.0.0.1 -\> streamer-controller.magma.test,8443\] \"POST /magma.Streamer/GetUpdates HTTP/2\" 200 7bytes 0.009s
 ```
 
-## Setup the Network Management System (NMS)
+### Setup the Network Management System (NMS)
 
 Magma provides a UI for configuring and monitoring the networks.\
 To set up the NMS to talk to your local Orchestrator:
