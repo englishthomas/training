@@ -43,3 +43,5 @@ all access gateways.
   * HSS  (S6a) Home Subscriber Service; PDN, APN, QoS Profile, Access Restrictions
   * PCRF (Gx) Policy Control and Charging Rules Function
   * OCS	 (Gy) Online Charging System
+  
+See the Magma Acronyms & Jargon list for acronyms used throughout this guide. 
