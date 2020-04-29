@@ -1,3 +1,11 @@
+---
+id: version-1.0.1-orchestrator_installing
+title: Orchestator Installing
+sidebar_label: Installing Orchestrator
+hide_title: true
+original_id: 04_Orchestrator_Installing_Orchestrator.md
+---
+
 ## Installing Orchestrator
 
 ### SSL Certificates Prerequisites
