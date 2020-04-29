@@ -21,26 +21,26 @@ Magma Dev Package:
 
 Install the following developer tools:
 
-1.  [[Docker]](https://www.docker.com/)  Image Depository to
+1.  [Docker](https://www.docker.com/)  Image Depository to
     deploy Magma containers
 
-2.  [[Homebrew]](https://brew.sh/) *only* for MacOS users,
+2.  [Homebrew](https://brew.sh/) *only* for MacOS users,
     see the [[pyenv installation
     instructions]{.underline}](https://github.com/pyenv/pyenv#installation)
 
-3.  [[VirtualBox]](https://www.virtualbox.org/) Oracle
+3.  [VirtualBox](https://www.virtualbox.org/) Oracle
     Virtual Box, version 5.2 or higher
 
-4.  [[Kubectl]](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+4.  [Kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
     kubernetes CLI tool allows you to run commands against Kubernetes
     clusters
 
-5.  [[Helm](https://helm.sh/) 2.0] manages Kubernetes
+5.  [Helm(https://helm.sh/) 2.0] manages Kubernetes
     applications; define, install, and upgrade
     
 6.  Python 3.5 https://www.python.org/ 
 
-7.  [[Terraform]](https://www.terraform.io/downloads.html)
+7.  [Terraform](https://www.terraform.io/downloads.html)
     manages the Orchestrator cloud deployment  <br/><br/>
 	
 
@@ -75,11 +75,11 @@ the above eNodeB's.<br/><br/>
     System (NMS) and Access Gateways if they are deployed in the
     cloud. When using access and secret keys for an administrator
     account ***do not use*** the root account.
-
-- Create Root account
-- Create an Admin User account
-- Obtain an <access key ID> for an administrator account
-- Obtain a <secret key> for an administrator account<br/><br/>
+    
+    - Create Root account
+    - Create an Admin User account
+    - Obtain an <access key ID> for an administrator account
+    - Obtain a <secret key> for an administrator account<br/><br/>
 
 
 11. **Magma Dev Package** - clone from the [[Facebook
