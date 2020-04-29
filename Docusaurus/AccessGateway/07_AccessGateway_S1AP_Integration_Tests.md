@@ -3,7 +3,7 @@ id: version-1.0.1-accessgateway_s1ap_integration_tests
 title: Access Gateway S1AP Integration Tests
 sidebar_label: S1AP Integration Tests
 hide_title: true
-original_id: 06_AccessGateway_s1ap_integration_tests.md
+original_id: 07_AccessGateway_s1ap_integration_tests.md
 ---
 
 ## S1AP Integration Tests
