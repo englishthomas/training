@@ -65,7 +65,7 @@ This installation guide targets *production* environments.
 
 The following diagram shows Orchestrator network architecture:
 
-[Orchestrator Network Architecture](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/orc8r_architecture.png)
+![Orchestrator Network Architecture](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/orc8r_architecture.png)
 
 <br/>
 
