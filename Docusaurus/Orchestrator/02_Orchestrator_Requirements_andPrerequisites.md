@@ -63,7 +63,7 @@ If you are on MacOS, you should start Docker for Mac and increase the memory all
 
 <br><br/>
 
-## Build/Deploy Tooling
+### Build/Deploy Tooling
 
 We support building the AGW and Orchestrator on MacOS and Linux host
 operating systems. Doing so on a Windows environment should be
@@ -84,12 +84,12 @@ Provide the access key ID and secret key for an administrator user in
 AWS (do NOT use the root user) when prompted by aws configure. Skip
 this step if you will use something else for managing AWS credentials. <br><br/>
 
-3.  Clone the Magma Dev package from GitHub
+1.  Clone the Magma Dev package from GitHub
 
     -   **Magma Dev Package** - clone from the [[Facebook Github]](https://github.com/facebookincubator/magma/) repository
         &#x1F4D9; <br><br/>
 
-4.  Obtain the following SSL Certificates, Secret Keys, Private Keys and Domain if you already have or will be using self-signed.
+2.  Obtain the following SSL Certificates, Secret Keys, Private Keys and Domain if you already have or will be using self-signed.
     ***The following are created during installation***.
 
     a.  ***SSL Certificates*** - the public SSL certificate for your Orchestrator domain, with CN=\*.yourdomain.com
