@@ -47,5 +47,6 @@ all access gateways.
 ![Magma Architecture Diagram](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/architectureDiagram_1.png)
 <br><br/>
   
+### Magma Acronyms
 See the
 [Magma Acronyms & Jargon](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/FBC_Acronymns.pdf "FBC Acronyms") list for acronyms used throughout this guide. <br><br/>
