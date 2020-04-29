@@ -3,7 +3,7 @@ id: version-1.0.1-accessgateway_setup_bare_metal
 title: Access Gateway Setup Bare Metal
 sidebar_label: Setup (Bare Metal)
 hide_title: true
-original_id: 01_AccessGateway_Setup_Bare_Metal.md
+original_id: 03_AccessGateway_Setup_Bare_Metal.md
 ---
 
 ## Access Gateway Setup (Bare Metal Setup)
