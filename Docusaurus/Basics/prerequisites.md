@@ -3,7 +3,7 @@ id: version-1.0.1-prerequisites
 title: Basics Prerequisites
 sidebar_label: Prerequisites
 hide_title: true
-original_id: prerequisites
+original_id: prerequisites.md
 ---
 # Prerequisites
 
@@ -131,14 +131,16 @@ After installation for MacOS, start Docker for Mac and increase the
 memory allocation for the Docker engine to at least 4GB (Preferences -\>
 Advanced).
 
+![MAC Memory Change](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/MACmemory_change.png)
+
+
+
 Windows users start Docker for Windows and increase the memory
 allocation for the Docker engine to at least 4GB (Docker -\> Settings).
 
-![](media/image1.png){width="3.8329910323709537in"
-height="3.555344488188976in"}
+![Docker for Windows Changes](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/DOCKERmemory_change.jpg)
 
-![](media/image2.png){width="3.9911832895888013in"
-height="3.054790026246719in"}
+
 <br/><br/>
 
 ## Setup AWS-IAM-Authenticator
