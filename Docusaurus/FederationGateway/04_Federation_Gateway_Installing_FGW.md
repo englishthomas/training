@@ -95,8 +95,7 @@ GY_LOCAL_PORT=3871
 GY_HOST_PORT=3871
 GY_NETWORK=tcp
 ```
-
-<br><br/>
+<br/>
 
 ### Installation
 
