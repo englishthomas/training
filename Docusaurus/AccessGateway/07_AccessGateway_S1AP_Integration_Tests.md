@@ -16,6 +16,7 @@ Our VM-only tests use 3 Vagrant-managed VMs hosted on the local device (laptop):
     The *magma_trfserver* emulates the Internet <br><br/>
 
 ### Gateway-Only tests
+---
 
 #### Gateway VM Setup
 
@@ -71,6 +72,7 @@ Running make ```integ\_test``` in *magma\_test* VM should succeed now.<br><b
 
 
 ### Testing Stateless Access Gateway
+---
 
 The Access Gateway by default runs a set of stateful services, which means that whenever the services are restarted, all previous state of UEs and eNodeBs, and they need to reconnect and re-register. Alternatively, we can switch the Access Gateway to be stateless, as
 shown below, so that all UE state is preserved across service restarts.
