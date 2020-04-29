@@ -14,7 +14,7 @@ These are described below:
     The ```bootstrap_address```, ```bootstrap_port```, ```controller_address```, and ```controller_port``` are the parameters that will     likely need to be modified.
 
 3.  ```.env``` - This file provides any deployment specific environment variables used in the docker-compose.yml of the FGW. A sample
-    configuration is provided below:<br<<br/>
+    configuration is provided below:<br><br/>
 
 ### Sample control.proxy.YML
 
@@ -52,126 +52,100 @@ proxy_cloud_connections: True
 
 # Allows http\_proxy usage if the environment variable is present
 allow_http_proxy: True<br><br/>
+```
+<br/>
 
 ### Sample .env
 
-\# Copyright (c) 2016-present, Facebook, Inc.
+```
+# Copyright (c) 2016-present, Facebook, Inc.
+# All rights reserved.
+#
+# This source code is licensed under the BSD-style license found in the
+# LICENSE file in the root directory of this source tree. An additional grant
+# of patent rights can be found in the PATENTS file in the same directory.
 
-\# All rights reserved.
+COMPOSE_PROJECT_NAME=feg
+DOCKER_REGISTRY=<registry>
+DOCKER_USERNAME=<username>
+DOCKER_PASSWORD=<password>
+IMAGE_VERSION=latest
 
-\#
+ROOTCA_PATH=/var/opt/magma/certs/rootCA.pem
+CONTROL_PROXY_PATH=/etc/magma/control\_proxy.yml
+SNOWFLAKE_PATH=/etc/snowflake
 
-\# This source code is licensed under the BSD-style license found in the
+CERTS_VOLUME=/var/opt/magma/certs
+CONFIGS_VOLUME=/var/opt/magma/configs
 
-\# LICENSE file in the root directory of this source tree. An additional
-grant
+# This section is unnecessary if using host networking
+S6A_LOCAL_PORT=3868
+S6A_HOST_PORT=3868
+S6A_NETWORK=sctp
 
-\# of patent rights can be found in the PATENTS file in the same
-directory.
+SWX_LOCAL_PORT=3869
+SWX_HOST_PORT=3869
+SWX_NETWORK=sctp
 
-COMPOSE\_PROJECT\_NAME=feg
+GX_LOCAL_PORT=3870
+GX_HOST_PORT=3870
+GX_NETWORK=tcp
 
-DOCKER\_REGISTRY=\<registry\>
+GY_LOCAL_PORT=3871
+GY_HOST_PORT=3871
+GY_NETWORK=tcp
+```
 
-DOCKER\_USERNAME=\<username\>
+<br><br/>
 
-DOCKER\_PASSWORD=\<password\>
+### Installation
 
-IMAGE\_VERSION=latest
-
-ROOTCA\_PATH=/var/opt/magma/certs/rootCA.pem
-
-CONTROL\_PROXY\_PATH=/etc/magma/control\_proxy.yml
-
-SNOWFLAKE\_PATH=/etc/snowflake
-
-CERTS\_VOLUME=/var/opt/magma/certs
-
-CONFIGS\_VOLUME=/var/opt/magma/configs
-
-\# This section is unnecessary if using host networking
-
-S6A\_LOCAL\_PORT=3868
-
-S6A\_HOST\_PORT=3868
-
-S6A\_NETWORK=sctp
-
-SWX\_LOCAL\_PORT=3869
-
-SWX\_HOST\_PORT=3869
-
-SWX\_NETWORK=sctp
-
-GX\_LOCAL\_PORT=3870
-
-GX\_HOST\_PORT=3870
-
-GX\_NETWORK=tcp
-
-GY\_LOCAL\_PORT=3871
-
-GY\_HOST\_PORT=3871
-
-GY\_NETWORK=tcp
-
-Installation
-------------
-
-The installation is completed using the install\_gateway.sh script
-located at magma/orc8r/tools/docker.\\
+The installation is completed using the ```install_gateway.sh``` script located at ```magma/orc8r/tools/docker```.
 
 To Install the FGW:
 
-1.  Copy install\_gateway.sh, and the three files described abov;
-    rootCA.pem , control\_proxy.yml , .env  into a directory on the
-    install host. Then run:
+1.  Copy install_gateway.sh, and the three files described above; ```rootCA.pem``` , ```control_proxy.yml``` , ```.env``` into a 
+    directory on the install host. Then run:
 
-INSTALL\_HOST \[\~/\]\$ sudo ./install\_gateway.sh feg
-
+```
+INSTALL_HOST [~/]$ sudo ./install_gateway.sh feg
 Installed successfully!!
+```
 
-Registration
-------------
+
+### Registration
 
 To Register the Federation Gateway with the Orchestrator.
 
 1.  To register the FGW run the following:
 
-INSTALL\_HOST \[\~/\]\$ cd /var/opt/magma/docker
+INSTALL_HOST [~/]$ cd /var/opt/magma/docker
 
-INSTALL\_HOST \[/var/opt/magma/docker\]\$ docker-compose exec magmad\
-/usr/local/bin/show\_gateway\_info.py
+INSTALL_HOST [/var/opt/magma/docker]$ docker-compose exec magmad 
+/usr/local/bin/show_gateway_info.py
 
-2.  This will output a *hardware ID* and a *challenge key*. This
-    information must be registered with the Orchestrator.
+2.  This will output a *hardware ID* and a *challenge key*. This information must be registered with the Orchestrator.
 
-**Add\> How to register ID and Key w/ Ochestrator**
+3.  To register the FGW go to the Orchestrator's APIdocs in your browser.
+**Note: It is highly encouraged to use V1 of the apidocs** (i.e. <https://controller.url.sample:9443/apidocs/v1/>).
 
-3.  To register the FGW go to the Orchestrator\'s APIdocs in your
-    browser. **Note: It is highly encouraged to use V1 of the
-    apidocs** (i.e. <https://controller.url.sample:9443/apidocs/v1/>).
+4.  Create a Federation Network. This is found at ```/feg``` under the **Federation Networks** section.
 
-4.  Create a Federation Network. This is found at /feg under
-    the **Federation Networks** section.
-
-5.  Register the gateway under the **Federation Gateway** section
-    at /feg/{network\_id}/gateways using the *network ID* of the
-    Federation Network and the *hardware ID* and *challenge key* from
-    the previous step.
+5.  Register the gateway under the **Federation Gateway** section at ```/feg/{network_id}/gateways``` using the *network ID* of the
+    Federation Network and the *hardware ID* and *challenge key* from the previous step.
 
 6.  Verify that the gateway was correctly registered, run:
 
-> INSTALL\_HOST \[\~/\]\$ cd /var/opt/magma/docker
->
-> INSTALL\_HOST \[/var/opt/magma/docker\]\$ docker-compose exec magmad
-> /usr/local/bin/checkin\_cli.py
+```
+INSTALL_HOST [~/]$ cd /var/opt/magma/docker
+INSTALL_HOST [/var/opt/magma/docker]$ docker-compose exec magmad /usr/local/bin/checkin_cli.py
+```
 
-**Upgrades**
+### Upgrades
 
 The Federation Gateway supports NMS initiated upgrades. These can be
 triggered from the NMS under the Configure section by updating the
-FGW\'s tier to the appropriate Software Version. After triggering the
+FGW's tier to the appropriate Software Version. After triggering the
 upgrade from the NMS, magmad on the gateway will pull down the specified
 docker images, update any static configuration, and update the
-docker-compose file to the appropriate version.
+docker-compose file to the appropriate version.<br><br/>
