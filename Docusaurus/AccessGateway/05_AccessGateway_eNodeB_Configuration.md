@@ -3,7 +3,7 @@ id: version-1.0.1-accessgateway_eNodeB_Configuration
 title: Access Gateway eNodeB Configuration
 sidebar_label: eNodeB Configuration
 hide_title: true
-original_id: 01_AccessGateway_eNodeB_Configuration.md
+original_id: 05_AccessGateway_eNodeB_Configuration.md
 ---
 
 ## eNodeB Configuration
