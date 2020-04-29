@@ -68,5 +68,5 @@ is a common case.<br><br/>
 
 ### Common Acronyms
 
-See the Magma Acronyms & Jargon list.
-![Magma Acronyms & Jargon list](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/FBC_Acronymns.pdf "FBC Acronyms") <br />
+See the
+[Magma Acronyms & Jargon list](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/FBC_Acronymns.pdf "FBC Acronyms") <br />
