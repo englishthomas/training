@@ -140,7 +140,7 @@ Verify traffic server VM is running (as described in traffic tests above) and TC
 
 
 ```diff
-+ **Stateless Mobilityd**
++ Stateless Mobilityd
 ```
 
 This section describes how to test whether Mobilityd service is persisting state to Redis.
