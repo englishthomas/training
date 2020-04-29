@@ -33,8 +33,8 @@ desired-configuration beyond the defaults that enodebd already does.
 
 The provisioning session can occur a little differently for each eNB. The state map attached to each state machine lets you customize the state machine for differences between devices. Some devices require rebooting for parameter changes to take effect, for example. You can add/remove behavior through this map, and also add custom states.
 
-[[An example pull request for adding an
-eNB]{.underline}](https://github.com/facebookincubator/magma/commit/e1d4564f7daa7a4c1be135e8dbffe7a10bfa4e34)
+[An example pull request for adding an
+eNB](https://github.com/facebookincubator/magma/commit/e1d4564f7daa7a4c1be135e8dbffe7a10bfa4e34)
 
 <br/>
 
