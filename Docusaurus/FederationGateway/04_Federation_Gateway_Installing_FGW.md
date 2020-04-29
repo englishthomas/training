@@ -51,7 +51,7 @@ bootstrap_port: 443
 proxy_cloud_connections: True
 
 # Allows http\_proxy usage if the environment variable is present
-allow_http_proxy: True<br><br/>
+allow_http_proxy: True
 ```
 <br/>
 
