@@ -9,10 +9,10 @@ Our VM-only tests use 3 Vagrant-managed VMs hosted on the local device (laptop):
 -   *Magma VM*, i.e. magma-dev or gateway<br>
     The *magma* VM acts as the ***gateway*** between *magma_test* and *magma_trfserver*
 
--   *magma_test*, i.e. s1ap_tester
+-   *magma_test*, i.e. s1ap_tester<br>
     The *magma_test* VM abstracts away the UE and eNodeB
 
--   *magma_trfserver*, i.e. an Iperf server to generate uplink/downlink traffic
+-   *magma_trfserver*, i.e. an Iperf server to generate uplink/downlink traffic<br>
     The *magma_trfserver* emulates the Internet <br><br/>
 
 ### Gateway-Only tests
