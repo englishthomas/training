@@ -65,8 +65,8 @@ This installation guide targets *production* environments.
 
 The following diagram shows Orchestrator network architecture:
 
-![A screenshot of a cell phone Description automatically
-generated](media/image2.png){width="4.96431539807524in"
-height="3.4819160104986877in"}
+[Orchestrator Network Architecture](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/orc8r_architecture.png)
+
+<br/>
 
 *Orchestrator Network Architecture*
