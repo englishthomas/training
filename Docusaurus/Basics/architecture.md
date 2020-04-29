@@ -1,3 +1,10 @@
+---
+id: version-1.0.1-architecture
+title: Basics Architecture
+sidebar_label: Architecture
+hide_title: true
+original_id: architecture.md
+---
 ## Magma Architecture
 
 The  Magma archiecture Diagram below shows a high-level Magma Network Architecture.  Magma is designed to be 3GPP generation and access network agnostic (cellular or WiFi) where all devices can connect.
