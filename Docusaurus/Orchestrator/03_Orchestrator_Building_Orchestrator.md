@@ -1,3 +1,10 @@
+---
+id: version-1.0.1-orchestrator_building
+title: Orchestator Building
+sidebar_label: Building Orchestrator
+hide_title: true
+original_id: 03_Orchestrator_Building_Orchestrator.md
+---
 ## Building Orchestrator Components
 
 1.  Start up your Docker daemon and run the following:
@@ -13,7 +20,7 @@ We recommend continuing onto the next step (Terraforming cloud
 resources) in a different terminal instance or tab and coming back to
 this section when the builds are completed.<br><br/>
 
-## Upload Images
+### Upload Images
 
 2.  When the ```./build.py -a``` job completes, upload the following images to your image registry:
 
@@ -27,7 +34,7 @@ done
 ```
 <br/>
 
-## Build the NMS
+### Build the NMS
 
 3.  After the uploading of the Magma images to your registry, build and publish the Network Management System (NMS) containers:
 
