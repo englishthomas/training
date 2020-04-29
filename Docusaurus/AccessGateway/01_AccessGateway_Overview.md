@@ -1,3 +1,11 @@
+
+---
+id: version-1.0.1-accessgateway_overview
+title: Access Gateway Overview
+sidebar_label: AGW Overview
+hide_title: true
+original_id: 01_AccessGateway_Overview.md
+---
 ## Magma Access Gateway (AGW) Overview
 
 
@@ -29,7 +37,7 @@ configured manually or through 3rd party management systems.<br><br/>
 Conceptually, you can think of an AGW as a lightweight *software-defined network element* that is co-located with radio "near
 the edge", for example, at a cell tower. The AGW can also be deployed in a public or private hosted cloud environment. Regardless of where it is deployed, the AGW is a remotely managed device through the Magma Orchestrator.
 
-Magma Access Gateway Architecture
-![](media/image2.png){width="4.848958880139983in"
+
+![Magma Access Gateway Architecture](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/agw_architecture_v1.png){width="4.848958880139983in"
 height="3.391521216097988in"}
 <br><br/>
