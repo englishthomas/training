@@ -1,4 +1,3 @@
-
 ---
 id: version-1.0.1-accessgateway_agw_configuration
 title: Access Gateway Configuration
@@ -62,7 +61,7 @@ rootca_cert: **/var/opt/magma/tmp/certs/rootCA.pem
 AGW$ sudo service magma@* stop
 AGW$ sudo service magma@magmad restart
 ```
-<br/>
+<br><br/>
 
 ### Creating and Configuring Your Network
 
@@ -77,8 +76,7 @@ If this is a fresh Orchestrator install, you will be prompted to create your fir
 
 2.  Select *lte* as the network type and complete the other fields as you see fit
 
-![Add Network Screen](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/agw_add_network.png){width="3.7in"
-height="2.5in"}
+![Add Network Screen](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/agw_add_network.png){Add Network Screen}
 
 <br><br/>
 
@@ -91,8 +89,7 @@ To get to Network Management use the app selector in the bottom left of the dash
 
 3.  Configure your RAN and EPC parameters which are appropriate for your hardware setup
 
-![Network Configuration Screen](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/agw_configure_network.png){width="4.586971784776903in"
-height="3.441502624671916in"}
+![Network Configuration Screen](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/agw_configure_network.png){Network Configuration Screen}
 
 <br><br/>
 
@@ -112,6 +109,8 @@ height="3.441502624671916in"}
     MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAECMB9zEbAlLDQLq1K8tgCLO8Kie5IloU4QuAXEjtR19jt0KTkRzTYcBK1XwA+C6                              
     ALVKFWtlxQfrPpwOwLE7GFkZv1i7Lzc6dpqLnufSlvE/Xlq4n5K877tIuNac3U/8un
 ```
+<br><br/>
+
 
 2.  **Add Gateway**
 
@@ -121,10 +120,9 @@ height="3.441502624671916in"}
 
     c.  Complete the Add Gateway form using the Challenge Key from above
 
-![Add Gateway Screen](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/agw_add_gateway.png){width="4.602597331583552in"
-height="3.379073709536308in"}
+![Add Gateway Screen](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/agw_add_gateway.png){Add Gateway Screen}
 
-<br/>
+<br><br/>
 
 ### Configure the RAN
 After you create your Access Gateway, configure your EPC/RAN.
@@ -135,10 +133,9 @@ After you create your Access Gateway, configure your EPC/RAN.
 
 3.  Enable eENODEB transmit
 
-![Configure Gateway Screen](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/agw_configure_gateway.png){width="5.5in"
-height="4.0in"}
+![Configure Gateway Screen](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/agw_configure_gateway.png){Configure Gateway Screen}
 
-<br/>
+<br><br/>
 
 ### Validate the AGW
 Validate the connection between your AGW and Orchestrator:
@@ -150,6 +147,8 @@ AGW$ journalctl -u magma@magmad -f
     # INFO:root:\[SyncRPC\] Got heartBeat from cloud
     # INFO:root:Processing config update gateway\_id
 ```
-<br/>
+<br><br/>
 
-Next steps, configuring an eNodeB.
+&#x1F538; Next steps, configuring an eNodeB.
+
+<br><br/>
