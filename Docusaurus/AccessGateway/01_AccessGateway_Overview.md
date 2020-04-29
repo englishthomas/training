@@ -1,4 +1,3 @@
-
 ---
 id: version-1.0.1-accessgateway_overview
 title: Access Gateway Overview
@@ -38,6 +37,6 @@ Conceptually, you can think of an AGW as a lightweight *software-defined network
 the edge", for example, at a cell tower. The AGW can also be deployed in a public or private hosted cloud environment. Regardless of where it is deployed, the AGW is a remotely managed device through the Magma Orchestrator.
 
 
-![Magma Access Gateway Architecture](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/agw_architecture_v1.png){width="4.848958880139983in"
-height="3.391521216097988in"}
+![Magma Access Gateway Architecture](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/agw_architecture_v1.png){width="4.8in"
+height="3.39in"}
 <br><br/>
