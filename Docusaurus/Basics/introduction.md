@@ -25,7 +25,7 @@ At a high level, Magma consists of 4 components.
 3.  **Network Management System (NMS)**  A console dashboard
 
 4.  **The Federation Gateway (FGW)** a centralized control plane
-    interface towards HSS, PCRF , OCS and MSC.
+    interface towards HSS, PCRF , OCS and MSC.<br><br/>
 
 Magma provides a flexible building block for an IP access network by
 decoupling the data plane, and network control plane or management
@@ -35,9 +35,9 @@ as opposed to being implemented in H/W appliances. By decoupling policy
 definition (i.e., operator intent) from policy implementation (i.e.,
 packet processing), we achieve greater deployment flexibility than
 today\'s networks and provide a common basis upon which any IP access
-network can be built.
+network can be built.<br><br/>
 
-Magma enables better connectivity by:
+#### Magma enables better connectivity by:
 
 -   Offering an Open Source packet core network, enabling a faster
     connections, with no need to connect to a centralized data center
@@ -58,13 +58,13 @@ accessibility, affordability, and relevance, by allowing for fast, less
 expensive to deploy, easier to manage, wireless networks.
 
 It is an Open Source solution and scales horizontally as a distributed
-cellular core network.
+cellular core network.<br><br/>
 
 ## Deployment Environment Tolerance
 Our typical deployments involve running devices in remote areas, on
 backhaul networks with arbitrary topologies, behind network address
 translations (NATS), and where intermittent or unreliable connectivity
-is a common case.
+is a common case.<br><br/>
 
 ## Common Acronyms
 
