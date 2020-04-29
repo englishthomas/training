@@ -3,7 +3,7 @@ id: version-1.0.1-introduction
 title: Basics Introduction
 sidebar_label: Introduction
 hide_title: true
-original_id: introduction
+original_id: introduction.md
 ---
 ## What is Magma
 
