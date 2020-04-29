@@ -127,7 +127,7 @@ On the Gateway VM:
 1.  Basic attach/detach test where MME is restarted mid-way:
 
 ```
-    make integ\_test TESTS=s1aptests/test_attach_detach_with_mme_restart.py
+    make integ_test TESTS=s1aptests/test_attach_detach_with_mme_restart.py
 ```
 
 2.  Attach with uplink UDP traffic, where MME is restarted while UDP traffic is flowing:
@@ -140,7 +140,7 @@ Verify traffic server VM is running (as described in traffic tests above) and TC
 
 
 ```diff
-+ Stateless Mobilityd
++ **Stateless Mobilityd**
 ```
 
 This section describes how to test whether Mobilityd service is persisting state to Redis.
