@@ -1,3 +1,11 @@
+
+---
+id: version-1.0.1-accessgateway_agw_configuration
+title: Access Gateway Configuration
+sidebar_label: AGW Configuration
+hide_title: true
+original_id: 01_AccessGateway_AGW_Configuration.md
+---
 ## Access Gateway Configuration
 
 ### Prerequisites
@@ -69,8 +77,8 @@ If this is a fresh Orchestrator install, you will be prompted to create your fir
 
 2.  Select *lte* as the network type and complete the other fields as you see fit
 
-![A screenshot](media/image1.png){width="4.7273687664042in"
-height="3.546537620297463in"}
+![Add Network Screen](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/agw_add_network.png){width="3.7in"
+height="2.5in"}
 
 <br><br/>
 
@@ -83,7 +91,7 @@ To get to Network Management use the app selector in the bottom left of the dash
 
 3.  Configure your RAN and EPC parameters which are appropriate for your hardware setup
 
-![Screen Shot](media/image2.png){width="4.586971784776903in"
+![Network Configuration Screen](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/agw_configure_network.png){width="4.586971784776903in"
 height="3.441502624671916in"}
 
 <br><br/>
@@ -113,7 +121,7 @@ height="3.441502624671916in"}
 
     c.  Complete the Add Gateway form using the Challenge Key from above
 
-![Screen Shot](media/image3.png){width="4.602597331583552in"
+![Add Gateway Screen](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/agw_add_gateway.png){width="4.602597331583552in"
 height="3.379073709536308in"}
 
 <br/>
@@ -127,8 +135,8 @@ After you create your Access Gateway, configure your EPC/RAN.
 
 3.  Enable eENODEB transmit
 
-![Screen Shot](media/image4.png){width="5.565138888888889in"
-height="4.085742563429571in"}
+![Configure Gateway Screen](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/agw_configure_gateway.png){width="5.5in"
+height="4.0in"}
 
 <br/>
 
