@@ -19,7 +19,7 @@ The following Certificates and Private Keys are required before proceeding:
       
 - The **rootCA certificate** which verifies your SSL certificate. <br><br/>
 
-Certificates will be uploaded to AWS Secretsmanager, they can be deleted locally afterwards.
+Certificates will be uploaded to 88AWS Secretsmanager88, they can be deleted locally afterwards.
 
 1.  Create a local directory to hold the certificates that you will use
     for your Orchestrator deployment.
@@ -51,6 +51,7 @@ run one more script here:
 cd \~/secrets/certs
 MAGMA\_ROOT/orc8r/cloud/deploy/scripts/create\_application\_certs.sh yourdomain.com
 ```
+<br/>
 
 ### Infrastructure and Application Installation
 
@@ -82,6 +83,7 @@ Create a new root Terraform module in a location of your choice by creating a ne
 
 Verify the ```source``` variables for the module definitions point to
 ```github.com/facebookincubator/magma//orc8r/cloud/deploy/terraform/\<module\>```. Adjust any other parameters as needed. Check the READMEs for the relevant Terraform modules to see additional variables that can be set.<br><br/>
+
 
 ### **Initial Infrastructure Terraform**
 
@@ -119,7 +121,7 @@ Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 $ terraform apply
 Apply complete! Resources: 16 added, 0 changed, 0 destroyed.
 ```
-
+<br/>
 
 ### Creating an NMS Admin User
 
