@@ -145,7 +145,7 @@ Verify traffic server VM is running (as described in traffic tests above) and TC
 
 This section describes how to test whether Mobilityd service is persisting state to Redis.
 
-On gateway VM:
+#### On gateway VM:
 
 1.  Disable the MME from restarting when Mobilityd restarts and comment out the line ```PartOf=magma@mobilityd.service``` from the MME 
     system service file ```/etc/systemd/system/magma@mme.service```.
