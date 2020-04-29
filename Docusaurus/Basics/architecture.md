@@ -1,6 +1,6 @@
 ## Magma Architecture
 
-The figure below shows a high-level Magma Network Architecture.  Magma is designed to be 3GPP generation and access network agnostic (cellular or WiFi) where all devices can connect.
+The  Magma archiecture Diagram below shows a high-level Magma Network Architecture.  Magma is designed to be 3GPP generation and access network agnostic (cellular or WiFi) where all devices can connect.
 It can flexibly support a radio access network with minimal development and deployment effort.
 
 ### Magma has three major components:
@@ -44,8 +44,8 @@ all access gateways.
   * PCRF (Gx) Policy Control and Charging Rules Function
   * OCS	 (Gy) Online Charging System
   
-![FGW Gateway](https://github.com/facebookincubator/magma/blob/master/docs/readmes/assets/federated_gateway_diagram.png)
+![Magma Architecture Diagram](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/architectureDiagram_1.png)
 <br><br/>
   
 See the
-[Magma Acronyms & Jargon list](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/FBC_Acronymns.pdf "FBC Acronyms") <br /> list for acronyms used throughout this guide. 
+[Magma Acronyms & Jargon](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/FBC_Acronymns.pdf "FBC Acronyms") list for acronyms used throughout this guide. <br><br/>
