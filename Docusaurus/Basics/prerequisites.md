@@ -35,10 +35,10 @@ Install the following developer tools:
     kubernetes CLI tool allows you to run commands against Kubernetes
     clusters
 
-5.  [Helm(https://helm.sh/) 2.0] manages Kubernetes
+5.  [Helm](https://helm.sh/) 2.0] manages Kubernetes
     applications; define, install, and upgrade
     
-6.  Python 3.5 https://www.python.org/ 
+6.  [Python 3.5](https://www.python.org/) 
 
 7.  [Terraform](https://www.terraform.io/downloads.html)
     manages the Orchestrator cloud deployment  <br/><br/>
@@ -76,10 +76,10 @@ the above eNodeB's.<br/><br/>
     cloud. When using access and secret keys for an administrator
     account ***do not use*** the root account.
     
-    - Create Root account
-    - Create an Admin User account
-    - Obtain an <access key ID> for an administrator account
-    - Obtain a <secret key> for an administrator account<br/><br/>
+    	- Create Root account
+   	- Create an Admin User account
+    	- Obtain an <access key ID> for an administrator account
+    	- Obtain a <secret key> for an administrator account<br/><br/>
 
 
 11. **Magma Dev Package** - clone from the [[Facebook
