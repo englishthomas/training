@@ -6,7 +6,7 @@ Current testing workflow for VM-only S1AP integration tests covering gateway-onl
 
 Our VM-only tests use 3 Vagrant-managed VMs hosted on the local device (laptop):
 
--   *Magma VM*, i.e. magma-dev or gateway
+-   *Magma VM*, i.e. magma-dev or gateway<br>
     The *magma* VM acts as the ***gateway*** between *magma_test* and *magma_trfserver*
 
 -   *magma_test*, i.e. s1ap_tester
