@@ -185,7 +185,7 @@ dependent on are already running. Follow the steps below:
 4.  sudo service magma@mobilityd start <br/>
 5.  sudo service magma@pipelined start <br/>
 6.  sudo service magma@sessiond start <br/>
-7.  sudo gdb /usr/local/bin/mme <br/>
+7.  sudo gdb /usr/local/bin/mme <br><br/>
 
 ### Checking Redis entries for stateless services
 
