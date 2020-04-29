@@ -44,4 +44,8 @@ all access gateways.
   * PCRF (Gx) Policy Control and Charging Rules Function
   * OCS	 (Gy) Online Charging System
   
-See the Magma Acronyms & Jargon list for acronyms used throughout this guide. 
+![FGW Gateway](https://github.com/facebookincubator/magma/blob/master/docs/readmes/assets/federated_gateway_diagram.png)
+<br><br/>
+  
+See the
+[Magma Acronyms & Jargon list](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/FBC_Acronymns.pdf "FBC Acronyms") <br /> list for acronyms used throughout this guide. 
