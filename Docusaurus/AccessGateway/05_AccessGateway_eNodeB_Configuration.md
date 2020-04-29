@@ -63,7 +63,7 @@ Magma supports configuration of the following **data models**:
 
 The Magma team plans to add support for more devices and management protocols.
 
-### Baicells -- Setting the Management Server URL
+### Baicells - Setting the Management Server URL
 
 Use the eNodeB's management interface to set the management server URL to ```baiomc.cloudapp.net:48080```. Magma uses DNS hijacking to point the eNodeB to the configuration server being run by enodebd. ```baiomc.cloudapp.net:48080``` will point to ```192.88.99.142```, the IP address that the TR-069 ACS is being hosted on.<br><br/>
 
