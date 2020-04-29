@@ -3,7 +3,7 @@ id: version-1.0.1-accessgateway_requirement_prerequisites
 title: Access Gateway Prerequisites
 sidebar_label: AGW Prerequsistes
 hide_title: true
-original_id: 01_AccessGateway_RequirementsPrerequisites.md
+original_id: 02_AccessGateway_RequirementsPrerequisites.md
 ---
 
 ## AGW Requirements and Prerequisites
