@@ -1,3 +1,11 @@
+---
+id: version-1.0.1-accessgateway_eNodeB_Configuration
+title: Access Gateway eNodeB Configuration
+sidebar_label: eNodeB Configuration
+hide_title: true
+original_id: 01_AccessGateway_eNodeB_Configuration.md
+---
+
 ## eNodeB Configuration
 
 
@@ -76,13 +84,11 @@ Use the eNodeB's management interface to set the management server URL to ```ba
 6.  Return to the "Gateways" page and edit the LTE configuration of the AGW. Enter the serial number of the enodeB you just
     provisioned into the "Registered eNodeBs" field. When complete click Save.
 
-![Screen Shot](media/image1.png){width="6.3550885826771655in"
-height="3.5935673665791774in"}
-*Configure eNodeB*
+![Add eNodeB Screen](media/image1.png){Configure eNodeB}
 
-![Screen Shot](media/image4.png){width="6.677083333333333in"
-height="4.169400699912511in"}
-*Gateway, LTE Configuration of the AGW*<br><br/>
+![Configure LTE Screen](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/agw_enodeb_lte_config.png){LTE Configuration of the AGW}
+
+br><br/>
 
 
 ### Basic Troubleshooting
@@ -180,9 +186,7 @@ Once your eNodeB starts transmitting, UEs may attempt to attach to your network.
 
 Subscriber information will eventually propagate to the AGW. Verify Subscribers using the CLI command ```subscriber_cli.py``` list.
 
-![Screen Shot](media/image2.png){width="5.267442038495188in"
-height="4.0715376202974625in"}
-*Adding Subscribers*
+![Add Sunscribers Screen](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/agw_add_sub.png){Adding Subscribers}
 
 <br/>
 
@@ -209,3 +213,5 @@ Source Destination Protocol Info
 10.0.2.246 10.0.2.1 S1AP/NAS-EPS UplinkNASTransport, Attach complete, Activate **default** EPS bearer context accept
 10.0.2.1 10.0.2.246 S1AP/NAS-EPS DownlinkNASTransport, EMM information
 ```
+
+<br><br/>
