@@ -19,12 +19,12 @@ at a cell tower, as software connected to an eNodeB.  The AGW can also be deploy
   * SGW 	Service Gateway<br/>
   
 
-- Orchestrator (ORC8r):  The Orchestrator is a cloud service that provides a simple and consistent way to configure, manage and
+- **Orchestrator (ORC8r)**:  The Orchestrator is a cloud service that provides a simple and consistent way to configure, manage and
 monitor the wireless network securely.  The Orchestrator can be hosted on a public or private cloud environment.
 Access gateways are configured and monitored through the cloud-based Orchestrator allowing for a consistent way of managing
 all access gateways.
 
-The Orchestrator has 3 main functions:
+  The Orchestrator has 3 main functions:
 
   * Network Management System (NMS): The NMS provides bootstrap configuration and monitoring of the system.  The metrics acquired through the platform allow for visibility into the analytics and traffic flows of the wireless users through the Magma web UI.  The Network Monitoring System also raises alerts and alarms, logging messages, and reporting events through RESTful API’s.  It displays radio locations on a map and includes performance management.
   
@@ -35,7 +35,7 @@ The Orchestrator has 3 main functions:
 
   * Relay: The Orchestrator acts as a relay between gateway nodes allowing for the brokering of trust between nodes running in different domains.
 
-- Federation Gateway (FGW):  The Federation Gateway integrates the Mobile Network Operators (MNO) core network with Magma by using standard 3GPP interfaces to existing MNO components.  It acts as a proxy between the Magma AGW and the operator's network.  It facilitates core functions, such as authentication, data plans, policy enforcement, and charging to stay uniform between an existing MNO network and the expanded network with Magma.
+- **Federation Gateway (FGW)**:  The Federation Gateway integrates the Mobile Network Operators (MNO) core network with Magma by using standard 3GPP interfaces to existing MNO components.  It acts as a proxy between the Magma AGW and the operator's network.  It facilitates core functions, such as authentication, data plans, policy enforcement, and charging to stay uniform between an existing MNO network and the expanded network with Magma.
 
 Components the Federation Gateway may interface with include:
   * MSC	 (SGs) Mobile Switching Center or VLR (Visiting Location Requestor)
