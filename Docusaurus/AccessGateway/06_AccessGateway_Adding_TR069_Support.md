@@ -1,3 +1,11 @@
+---
+id: version-1.0.1-accessgateway_adding_tr069_support
+title: Access Gateway Adding TR069 Support
+sidebar_label: Adding TR069 support for an eNodeB
+hide_title: true
+original_id: 06_AccessGateway_RequirementsPrerequisites.md
+---
+
 ## Add eNodeB TR-069 Support
 
 ### enodebd Overview
