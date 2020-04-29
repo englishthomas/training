@@ -46,7 +46,7 @@ Install the following developer tools:
 
 ### Prepare the following hardware & software:
 
-7.  **An eNodeB** - the recommended and tested models are:
+8.  **An eNodeB** - the recommended and tested models are:
 
 	- BaiCells Nova 233 TDD Outdoor
 
@@ -61,7 +61,7 @@ the enodebd service on the AGW, it is recommended to start with one of
 the above eNodeB's.<br/><br/>
 
 
-8.  **An Access Gateway (AGW)** - the recommended requirements are:
+9.  **An Access Gateway (AGW)** - the recommended requirements are:
 	Any 64bit-X86 machine, Dual-CPU, 2GHz clock speed or faster, 2GB RAM,
     128GB-256GB SSD storage which can support a Debian Linux installation.
 	With a minimum of 2+ physical ethernet interfaces (enp1s0=SGi and enp2s0= S1)
@@ -70,7 +70,7 @@ the above eNodeB's.<br/><br/>
     build the AGW.
     *To add the Magma Access Gateway (AGW) to the new network, use the Magma Network Management System (NMS).* <br/><br/> 
 	
-9.  **An AWS Account** - with the permissions to create multiple Amazon
+10.  **An AWS Account** - with the permissions to create multiple Amazon
     EC2 virtual servers for the Magma Orchestrator, Network Management
     System (NMS) and Access Gateways if they are deployed in the
     cloud. When using access and secret keys for an administrator
@@ -85,7 +85,7 @@ the above eNodeB's.<br/><br/>
 	- Obtain a \<secret key\> for an administrator account<br/><br/>
 
 
-10. **Magma Dev Package** - clone from the [[Facebook
+11. **Magma Dev Package** - clone from the [[Facebook
     Github]{.underline}](https://github.com/facebookincubator/magma/)
     repository
 
@@ -95,9 +95,9 @@ the above eNodeB's.<br/><br/>
 	- Install Git to use command line<br/><br/>
 
 
-11. **A Registered Domain**/URL for Orchestrator endpoints<br/><br/>
+12. **A Registered Domain**/URL for Orchestrator endpoints<br/><br/>
 
-12. **CPE** such as smartphone or tablet SIM card with known key values
+13. **CPE** such as smartphone or tablet SIM card with known key values
     for testing.<br/><br/>
 	
 
