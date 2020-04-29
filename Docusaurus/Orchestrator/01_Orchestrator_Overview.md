@@ -1,3 +1,10 @@
+---
+id: version-1.0.1-Orchestrator_Overview
+title: Orchestrator Overview
+sidebar_label: Orchestrator
+hide_title: true
+original_id: 01_Orchestrator_Overview.md
+---
 ## Orchestrator Overview
 
 The following pages will walk you through the full process of spinning
