@@ -3,7 +3,7 @@ id: version-1.0.1-accessgateway_agw_configuration
 title: Access Gateway Configuration
 sidebar_label: AGW Configuration
 hide_title: true
-original_id: 01_AccessGateway_AGW_Configuration.md
+original_id: 04_AccessGateway_AGW_Configuration.md
 ---
 ## Access Gateway Configuration
 
