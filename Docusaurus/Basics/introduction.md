@@ -5,7 +5,7 @@ sidebar_label: Introduction
 hide_title: true
 original_id: introduction
 ---
-# What is Magma
+## What is Magma
 
 Magma is an open source, software platform that gives network operators
 a manageable, flexible and extendable mobile core network solution. It
@@ -60,12 +60,12 @@ expensive to deploy, easier to manage, wireless networks.
 It is an Open Source solution and scales horizontally as a distributed
 cellular core network.<br><br/>
 
-## Deployment Environment Tolerance
+### Deployment Environment Tolerance
 Our typical deployments involve running devices in remote areas, on
 backhaul networks with arbitrary topologies, behind network address
 translations (NATS), and where intermittent or unreliable connectivity
 is a common case.<br><br/>
 
-## Common Acronyms
+### Common Acronyms
 
 See the Magma Acronyms & Jargon list
