@@ -1,3 +1,12 @@
+
+---
+id: version-1.0.1-orchestrator_upgrading
+title: Orchestator Upgrading
+sidebar_label: Upgrading from 1.0
+hide_title: true
+original_id: 05_Orchestrator_Upgrading_from_1.0.md
+---
+
 ## Upgrading from 1.0
 
 Review the [[Installing
