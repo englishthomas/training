@@ -76,10 +76,10 @@ the above eNodeB's.<br/><br/>
     cloud. When using access and secret keys for an administrator
     account ***do not use*** the root account.
 
-	- Create Root account
-	- Create an Admin User account
-	- Obtain an <access key ID> for an administrator account
-	- Obtain a <secret key> for an administrator account<br/><br/>
+- Create Root account
+- Create an Admin User account
+- Obtain an <access key ID> for an administrator account
+- Obtain a <secret key> for an administrator account<br/><br/>
 
 
 11. **Magma Dev Package** - clone from the [[Facebook
