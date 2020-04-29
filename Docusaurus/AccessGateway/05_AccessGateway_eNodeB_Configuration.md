@@ -86,6 +86,8 @@ Use the eNodeB's management interface to set the management server URL to ```ba
 
 ![Add eNodeB Screen](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/agw_add_enodeb.png){Configure eNodeB}
 
+<br/>
+
 ![Configure LTE Screen](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/agw_enodeb_lte_config.png){LTE Configuration of the AGW}
 
 <br><br/>
