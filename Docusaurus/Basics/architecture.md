@@ -13,7 +13,7 @@ at a cell tower, as software connected to an eNodeB.  The AGW can also be deploy
   The AGW uses the TR069 (S1) Interface for both provisioning the eNodeB and collecting the performance metrics. It defines the     
   application layer protocol for remote management.
 
-  The AGW works with existing, unmodified commercial radio hardware.  In an LTE network, the AGW implements an evolved packet core  
+  The AGW works with existing, unmodified commercial radio hardware. In an LTE network, the AGW implements an evolved packet core  
   (EPC), and a combination of:<br/>
   * MME	Mobility Management Entity<br/>
   * PGW	(SGi) Packet Gateway<br/>
