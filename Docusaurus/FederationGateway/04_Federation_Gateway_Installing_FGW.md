@@ -96,6 +96,7 @@ GY_HOST_PORT=3871
 GY_NETWORK=tcp
 ```
 <br/>
+
 ### Installation
 
 The installation is completed using the ```install_gateway.sh``` script located at ```magma/orc8r/tools/docker```.
@@ -109,6 +110,7 @@ To Install the FGW:
 INSTALL_HOST [~/]$ sudo ./install_gateway.sh feg
 Installed successfully!!
 ```
+
 <br/>
 
 ### Registration
