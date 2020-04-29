@@ -84,11 +84,11 @@ Use the eNodeB's management interface to set the management server URL to ```ba
 6.  Return to the "Gateways" page and edit the LTE configuration of the AGW. Enter the serial number of the enodeB you just
     provisioned into the "Registered eNodeBs" field. When complete click Save.
 
-![Add eNodeB Screen](media/image1.png){Configure eNodeB}
+![Add eNodeB Screen](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/agw_add_enodeb.png){Configure eNodeB}
 
 ![Configure LTE Screen](https://github.com/englishthomas/training/blob/master/Docusaurus/assets/agw_enodeb_lte_config.png){LTE Configuration of the AGW}
 
-br><br/>
+<br><br/>
 
 
 ### Basic Troubleshooting
