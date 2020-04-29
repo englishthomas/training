@@ -1,3 +1,11 @@
+---
+id: version-1.0.1-accessgateway_develper_notes
+title: Access Gateway Developer Notes
+sidebar_label: Devloper Notes
+hide_title: true
+original_id: 08_AccessGateway_developer_notes.md
+---
+
 ## Developer Notes for Access Gateway
 
 This section provides a guide for anyone testing existing features,
