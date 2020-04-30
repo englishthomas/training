@@ -1,3 +1,11 @@
+---
+id: version-1.0.1-federation-gateway_prerequisites
+title: Federation Gateway Prerequisites
+sidebar_label: Prerequisites
+hide_title: true
+original_id: 02_federation_gateway_prerequisites.md
+---
+
 ## Federation Gateway Prerequisites and Requiremets
 
 
