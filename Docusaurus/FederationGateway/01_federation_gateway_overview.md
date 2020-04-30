@@ -35,7 +35,7 @@ functionalities:
     these messages to the appropriate core network components such as
     HSS, PCRF, OCS and MSC.<br><br/>
     
-The Federation Gateway includes the following Core Services:
+#### The Federation Gateway includes the following Core Services:
 
 -   ***S6a Proxy*** - provides GRPC based interface to HSS S6a
 -   ***SWx Proxy*** - provides GRPC based interface to HSS SWx
@@ -45,19 +45,21 @@ The Federation Gateway includes the following Core Services:
 ### Additional FGW Features
 
 
-*Resiliency*
+- *Resiliency*
 
-Most of the resiliency features of the FGW are common amongst any gateway, such as system 
-service restarts and service restart on mconfig update.
+    Most of the resiliency features of the FGW are common amongst any gateway, such as system service restarts and service restart on 
+    mconfig update.
 
-*Redundancy*
+- *Redundancy*
 
-The FGW achieves redundancy through an active/standby configuration. Each gateway reports its health status to Orchestrator comprised of real-time system and service metrics, such as service availability, request failure percentage, and CPU utilization.
+    The FGW achieves redundancy through an active/standby configuration. Each gateway reports its health status to Orchestrator 
+    comprised of real-time system and service metrics, such as service availability, request failure percentage, and CPU utilization.
 
-*Backup*
+- *Backup*
 
-A Federation Gateway does not store persistent state, and a standby gateway can quickly be promoted to active during failover events. To aid in quick failover, standby gateway services run in idle mode and Diameter (authentication, authorization, and accounting
-protocol) connections are ready to be created upon receipt of requests.<br><br/>
+    A Federation Gateway does not store persistent state, and a standby gateway can quickly be promoted to active during failover   
+    events. To aid in quick failover, standby gateway services run in idle mode and Diameter (authentication, authorization, and    
+    accounting protocol) connections are ready to be created upon receipt of requests.<br><br/>
 
 ### Where does it Reside
 
