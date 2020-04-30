@@ -1,3 +1,11 @@
+---
+id: version-1.0.1-federation-gateway_building
+title: Federation Gateway Building
+sidebar_label: Building Federation Gateway
+hide_title: true
+original_id: 03_federation_gateway_building.md
+---
+
 ## Building Federation Gateway Components
 
 
