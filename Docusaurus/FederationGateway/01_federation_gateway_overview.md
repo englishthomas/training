@@ -1,3 +1,11 @@
+---
+id: version-1.0.1-federation-gateway_overview
+title: Federation Gateway Overview
+sidebar_label: Overview
+hide_title: true
+original_id: 01_federation_gateway_overview.md
+---
+
 ## What is the Federation Gateway (FGW)
 
 The Federation Gateway or FGW integrates the Magma network with the Operators core network using standard 3GPP interfaces to existing MNO components.
