@@ -1,3 +1,11 @@
+---
+id: version-1.0.1-federation-gateway_installing
+title: Federation Gateway Installing
+sidebar_label: Installing Federation Gateway
+hide_title: true
+original_id: 04_federation_gateway_installing.md
+---
+
 ## Installing the Federation Gateway (FGW)
 
 To install the Federation Gateway, there are 3 required files that are deployment-specific.
