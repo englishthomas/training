@@ -35,8 +35,8 @@ simple way is to click on the “+” icon on the left sidebar, then create a ne
 documentation about grafana dashboards online if you need help creating your dashboard. These dashboards will be 
 accessible by all users of your NMS organization.
 
-* Grafana documentation on creating dashboards: Grafana Dashboards
-* Prometheus documentation on writing queries: Prometheus Querying
+* Grafana documentation on creating dashboards: [Grafana Dashboards](https://grafana.com/docs/grafana/latest/features/dashboard/dashboards/)
+* Prometheus documentation on writing queries: [Prometheus Querying](https://prometheus.io/docs/prometheus/latest/querying/basics/)
 
 ![Grafana Custom Dashboard](assets/nms/grafana_new_dashboard.png)
 
