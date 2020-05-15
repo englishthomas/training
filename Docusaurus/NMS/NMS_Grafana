@@ -1,0 +1,12 @@
+---
+id: nms_grafana
+title: NMS User Guide
+sidebar_label: Architecture
+hide_title: true
+original_id: architecture.md
+---
+## NMS Grafana Dashboards
+Grafana is now replacing the metrics dashboards in the NMS. Grafana provides a much more powerful, configurable, and user-friendly dashboarding solution. Usage should be hassle-free with the new deployment.
+
+What’s New?
+In the metrics page of the nms, there is now a tab called ‘Grafana’
