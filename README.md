@@ -1,7 +1,6 @@
 ![image](https://user-images.githubusercontent.com/59058755/73372326-dfafdd80-426b-11ea-9ed1-7c3c6553b45c.png)
 
 ## This is the FBC Training Repository. <br />
-~ master branch <br />
 
 # **Magma Training**
 Magma is an open source, software platform that gives network operators a manageable, flexible and extendable mobile core network solution.
